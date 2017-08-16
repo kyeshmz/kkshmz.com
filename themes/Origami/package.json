@@ -5,17 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:sass": "node-sass static-src/_style.scss > static/css/style.css",
-    "watch:sass": "npm run build:sass && node-sass-chokidar static-src/_style.scss -o static/css/style.css --watch --recursive"
+    "build:sass": "node-sass static-src/bundle-style.scss > static/css/style.css",
+    "watch:sass": "onchange static-src/*.scss -- npm run build:sass",
+    "build:js": "browserify static-src/index.js > static/js/bundle.js",
+    "watch:js": "onchange 'static-src/index.js' -- npm run build:js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browserify": "^14.4.0",
     "node-sass": "^4.5.3",
-    "node-sass-chokidar": "0.0.3"
+    "node-sass-chokidar": "0.0.3",
+    "onchange": "^3.2.1"
   },
   "dependencies": {
-    "lazysizes": "^4.0.0-rc3"
+    "@tweenjs/tween.js": "^17.1.0",
+    "jquery": "^3.2.1",
+    "lazysizes": "^4.0.0-rc3",
+    "normalize-scss": "^7.0.0"
   }
 }
