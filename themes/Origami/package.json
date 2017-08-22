@@ -8,13 +8,15 @@
     "build:sass": "node-sass static-src/bundle-style.scss > static/css/style.css",
     "watch:sass": "onchange static-src/*.scss -- npm run build:sass",
     "build:js": "browserify static-src/index.js > static/js/bundle.js",
-    "watch:js": "onchange 'static-src/index.js' -- npm run build:js"
+    "watch:js": "onchange 'static-src/index.js' -- npm run build:js",
+    "check:js": "jslint static-src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^14.4.0",
+    "jslint": "^0.11.0",
     "node-sass": "^4.5.3",
     "node-sass-chokidar": "0.0.3",
     "onchange": "^3.2.1"

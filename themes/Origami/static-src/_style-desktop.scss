@@ -1,4 +1,12 @@
 @media screen and (min-width: 768px){
+#top-bar {
+    height: 40px;
+    padding-top: 31px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 11px;
+    line-height: 11px;
+}
 #projects {
     position: absolute;
     top: 0;
@@ -9,18 +17,10 @@
     padding-top: 40px;
 }
 #prj-list {
-    padding: 0px;
+    padding: 0;
     margin-top: 149px;
 }
-#top-bar {
-    height: 40px;
-    padding-top: 31px;
-    padding-left: 40px;
-    text-align: left;
-    font-size: 11px;
-    line-height: 11px;
-    letter-spacing: .08em; 
-}
+
 .prj-item {
     width: 30.56%;
     width: calc(27.78% + 40px);
@@ -40,26 +40,62 @@
     overflow: hidden;
     background-color: transparent;
 }
-.img-wrap-link{
+.prj-item.selected ,
+.prj-img-wrap {
+    z-index: 15;
+}
+.prj-img-wrap-link{
+    width: 100%;
+    height: 100%;
     position: relative;
     display: inline-block;
 }
-.img-ratio {
+.prj-img-ratio {
     transition: width .5s,height .5s;
     overflow: hidden;
+    width: inherit;
+    height: inherit;
 }
-a.prj-title {
+.prj-img-ratio::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    background-color: currentColor;
+}
+.prj-title-wrap {
+    display: block;
+    width: auto!important;
+    padding: 10px 0 10px 40px;
+    margin-top: 0!important;
+    color: #000;
+    font-size: 11px;
+    line-height: 1em;
+    font-weight: 500;
+}
+.prj-left-line, 
+.prj-right-line {
+    visibility: inherit;   
+}
+.prj-item .active,
+.prj-left-line .active,
+.prj-right-line .active,
+.prj-img-wrap .active {
+    visibility: inherit;
+    opacity: 1;
+}
+.prj-title {
     position: relative;
     display: inline-block;
     padding-right: 10px;
     background-color: #fff;
     z-index: 2;
 }
-.selected {
-    visibility: inherit;
-    color: red;
-}
 .prj-color-wrap {
+    visibility: inherit;
+    left: 52.78%;
     position: absolute;
     top: 0;
     right: 0;
@@ -68,6 +104,24 @@ a.prj-title {
     display: block;
     visibility: hidden;
     overflow: hidden;
+    opacity: 0;
+}
+.prj-color {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transform-origin: left;
+    visibility: hidden;
+}
+#more-prj {
+    font-size: 11px;
+    line-height: 11px;
+    padding-bottom: 28px;
+    margin-left: 80px;
+    margin-top: 45px;
 }
 #more-prj-arrow {
     display: block;
@@ -84,22 +138,6 @@ a.prj-title {
     bottom: 0;
     left: 0;
     transition: transform cubic-bezier(.19,1,.22,1) .4s;
-}
-#more-prj {
-    font-size: 11px;
-    line-height: 11px;
-    padding-bottom: 28px;
-    margin-left: 80px;
-    margin-top: 45px;
-    text-align: initial;
-}
-#more-prj::after {
-    display: none;
-}
-#title {
-    position: absolute;
-    top: 31px;
-    left: 80px;
 }
 #nav {
     position: fixed;
@@ -131,6 +169,28 @@ a.prj-title {
 .nav-btn:nth-of-type(3) {
     padding-right: 150px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.selected {
+    visibility: inherit;
+    color: red;
+}
+#title {
+    position: absolute;
+    top: 31px;
+    left: 80px;
+}
+
 #nav-last::before {
     content: "";
     position: absolute;
@@ -174,9 +234,6 @@ a.prj-title {
 }
 .social-icon {
     display: none;
-}
-.prj-item.selected .prj-left-line , .prj-item.selected .prj-right-line {
-    visibility: visible;
 }
 
 }
