@@ -2,3 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "Origami"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
