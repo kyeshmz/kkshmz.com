@@ -1,10 +1,108 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+        body {
+            background-color: #fafafa;
+            font-family: 'Signika', Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            min-height: 500px;
+            font-size: 110%;
+            text-align: left;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0 auto 0;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        h1 {
+            margin: 1em 0;
+        }
+        ul {
+            list-style: none;
+            
+        }
+        .header-wrap {
+            width: 100%;
+            background: #fafafa;
+            margin-bottom: 15px;
+        }
+        .header-wrap .nav-wrap {
+            display: flex;
+        }
+        ul.header-contents {
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+        }
+        .header-wrap .nav-wrap h1 {
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+        }
+        .blg-yr {
+            width: 9%;
+            cursor: pointer;
+            float: right;
+            display: block;
+            max-width: 30px;
+            font-size: 12px;
+            letter-spacing: .05em;
+            line-height: 16px;
+        }
+@media screen and (max-width: 768px) {
+    body {
+        width:90%;
+    }
+    p {
+        font-size: 18px;
+    }
+    .post-container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-wrap .nav-wrap {
+        width: 90%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-wrap h1 {
+        font-size: 1em;
+        display: inline-block;
+    }
+    .header-wrap .nav-wrap ul.header-contents li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .header-wrap .nav-wrap ul.header-contents    {
+        list-style: none;
+        overflow: hidden;
+    }
+    .header-wrap a {
+        text-decoration: none;
+    }
+
+    .blg-post-page .yr-postlist .blg-postlist {
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
         .blg-post p {
             margin: 0;
         }
-        .blg-post-page {
+        .blg-post-.age {
             padding-top: 20px;
             position: relative;
             overflow: visible;
@@ -22,13 +120,6 @@
         }
         .blg-yr {
             width: 9%;
-            cursor: pointer;
-            float: right;
-            display: block;
-            max-width: 30px;
-            font-size: 12px;
-            letter-spacing: .05em;
-            line-height: 16px;
         }
         .blg-post-wrap {
             
@@ -54,8 +145,7 @@
             width: 50%;
             clear: none;
             margin-right: 75px;
-            margin-bottom: 45px;
-            min-height: 120px;
+            margin-bottom: 10px;
         }
         .blg-post .blg-desc {
             font-size: 12px;
@@ -72,10 +162,6 @@
         .yr-postlist {
             width: 78%;
             margin: 0 11%;
-        }
-        body {
-            background-color: #fafafa;
-            font-family: 'Signika', Helvetica, Arial, sans-serif;
         }
         a {
             text-decoration: none;
@@ -97,9 +183,9 @@
         display: flex;
         max-width: 1200px;
         padding: 0 70px;
+        padding-left: 175px;
         }
         ul.header-contents {
-
         display: flex;
         -webkit-box-align: center;
         -moz-box-align: center;
@@ -213,11 +299,6 @@
         .post-date {
             color:#fafafa;
         }
-        
-        @media screen and (min-width: 768px) {
-    
-
-
             em,
             h3,
             h4,
@@ -236,9 +317,6 @@
                 font-size: 24px;
                 line-height: 1.6842105263;
             }
-        p {
-            font-size:20px;
-        }
         .post-wrapper {
             max-width:886px;
         }
