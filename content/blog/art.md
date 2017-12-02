@@ -5,7 +5,6 @@ What has also happened in itself shows. Of course, this can be argued that it is
 date: 2017-10-21
 draft: false
 type: "single"
-
 ---
 
 Making something good.
