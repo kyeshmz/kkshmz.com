@@ -159,7 +159,11 @@ ul {
 .header-wrap {
   width: 100%;
   background: #fafafa;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0; }
 
 .header-wrap .nav-wrap {
   display: flex; }
@@ -191,6 +195,32 @@ ul.header-contents {
   font-size: 12px;
   letter-spacing: .05em;
   line-height: 16px; }
+
+.blg-postlist {
+  overflow: hidden; }
+
+.blg-postlist .blg-post {
+  float: left;
+  width: 75%;
+  clear: both;
+  margin: 0 0 25px 0;
+  max-width: 160px;
+  font-size: 13px;
+  letter-spacing: .05em;
+  line-height: 16px; }
+
+.blg-post p {
+  overflow-wrap: break-word;
+  overflow: hidden; }
+
+.yr-postlist {
+  z-index: 10; }
+
+.blg-post-page {
+  padding-top: 65px;
+  font-style: normal;
+  font-weight: 400;
+  min-width: 320px; }
 
 @media screen and (max-width: 768px) {
   body {
@@ -230,6 +260,7 @@ ul.header-contents {
     width: 78%;
     margin: 0 11%; }
   .yr-postlist {
+    padding-top: 20px;
     margin-bottom: 55px;
     width: 100%;
     clear: both;
@@ -254,7 +285,14 @@ ul.header-contents {
     margin-right: 75px;
     margin-bottom: 45px;
     min-height: 120px; }
+  .blg-postlist .blg-post {
+    width: 50%;
+    clear: none;
+    margin-right: 75px;
+    margin-bottom: 45px;
+    min-height: 120px; }
   .blg-post .blg-postdate {
+    font-size: 10px;
     width: 50%;
     clear: none;
     margin-right: 75px;
@@ -274,6 +312,18 @@ ul.header-contents {
     margin: 0 11%; }
   a {
     text-decoration: none; }
+  .footer .copyright {
+    font-size: 10px;
+    position: fixed;
+    right: 33px;
+    width: 0px;
+    white-space: nowrap;
+    bottom: 25px;
+    -webkit-transform-origin: 50% 53%;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
   /*keep*/
   .header-wrap {
     height: 65px;

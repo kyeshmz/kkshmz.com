@@ -38,27 +38,39 @@
 
 
 </head>
-<body>
-    {{partial "header.html" }}
+<body class="blg-post-page">
+{{partial "header.html" }}
+<div class="blg-posts">
     {{ range (where .Data.Pages "Type" "single").GroupByDate "2006" }}
-<div class="blg-post-page">
     <section class="yr-postlist">
         <span class="blg-yr">{{ .Key }}</span>
             <ul class="blg-postlist">
+                    {{ range .Pages }}
                 <li class="blg-post">
                     <article>
-                            {{ range .Pages }}
                         <a href="{{ .Permalink }}">
                             <h4 class="blg-title">{{ .Title}}</h3>
                             <p class="blg-postdate">{{ .Date }}</p>
                             <p class="blg-desc">{{ .Description }}</h4>
                         </a>
-                        {{ end }}
                     </article>
                 </li>
+                {{ end }}
             </ul>
-    </section>    
+    </section>
+    {{ end }}
 </div>
+    <div class="blg-images">
+        <div class="blg-image">
+            <img src="">
+        </div>
+        <div class="blg-image">
+                <img src="">
+        </div>
+        <div class="blg-image">
+                <img src="">
+        </div>
+    </div> 
+{{ partial "footer.html" }}
 </body>
-{{ end }}
 </html>
