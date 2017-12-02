@@ -29,7 +29,6 @@
             background: #fafafa;
             margin-bottom: 15px;
             z-index: 100;
-            position: fixed;
             top: 0;
             left: 0;
         }
@@ -89,9 +88,6 @@
             font-style: normal;
             font-weight: 400;
             min-width: 320px;
-          }
-          .blg-posts {
-              
           }
 @media screen and (max-width: 768px) {
     body {
