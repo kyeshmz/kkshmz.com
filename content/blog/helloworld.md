@@ -3,6 +3,7 @@ title: "Helloworld"
 date: 2017-09-30T22:35:30+09:00
 draft: false
 description: "adfdfafafdafdfadfafdafaf"
+type: "single"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies fermentum pulvinar. Etiam pharetra vestibulum lorem, ut euismod ligula tristique ullamcorper. Morbi viverra nisl vel nibh sagittis bibendum. Nunc vitae dui iaculis, iaculis nulla a, dapibus est. Duis interdum enim quis erat pulvinar, et rutrum risus sollicitudin. Morbi vitae egestas erat. Nam lobortis congue nibh, eu rutrum diam sodales eget. In fringilla ante at fermentum porttitor. Sed id tortor sem. Praesent elementum consectetur lectus, eget pellentesque lorem mattis et.

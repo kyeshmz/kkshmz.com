@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Nov 2017 23:44:40 +0900</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test1</title>
+      <link>http://localhost:1313/blog/blog/test1/</link>
+      <pubDate>Mon, 27 Nov 2017 23:44:40 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/test1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test2</title>
+      <link>http://localhost:1313/blog/blog/test2/</link>
+      <pubDate>Mon, 27 Nov 2017 23:44:40 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/test2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alone</title>
+      <link>http://localhost:1313/blog/blog/alone/</link>
+      <pubDate>Mon, 27 Nov 2017 15:13:17 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/alone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>21</title>
+      <link>http://localhost:1313/blog/blog/21/</link>
+      <pubDate>Mon, 27 Nov 2017 15:12:58 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/blog/blog/blog/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Art</title>
+      <link>http://localhost:1313/blog/blog/art/</link>
+      <pubDate>Sat, 21 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/art/</guid>
+      <description>Making something good. Art in many ways is to create or enlighten something for an audience, this could be to enlighten people to how much of their privacy is being used by companies or it could be to create a sense of thoughtfulness or remembereance by creating a unique melody through the ripples of an earthquake.
+I used to grow up thinking that making something good was something that was subjective, and that to make something was to cater to an audience with that specific taste.</description>
+    </item>
+    
+    <item>
+      <title>Helloworld</title>
+      <link>http://localhost:1313/blog/blog/helloworld/</link>
+      <pubDate>Sat, 30 Sep 2017 22:35:30 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/helloworld/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies fermentum pulvinar. Etiam pharetra vestibulum lorem, ut euismod ligula tristique ullamcorper. Morbi viverra nisl vel nibh sagittis bibendum. Nunc vitae dui iaculis, iaculis nulla a, dapibus est. Duis interdum enim quis erat pulvinar, et rutrum risus sollicitudin. Morbi vitae egestas erat. Nam lobortis congue nibh, eu rutrum diam sodales eget. In fringilla ante at fermentum porttitor. Sed id tortor sem.</description>
+    </item>
+    
+    <item>
+      <title>Oldtest1</title>
+      <link>http://localhost:1313/blog/blog/oldtest1/</link>
+      <pubDate>Tue, 29 Nov 2016 20:53:42 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/oldtest1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oldtest2</title>
+      <link>http://localhost:1313/blog/blog/oldtest2/</link>
+      <pubDate>Sun, 27 Nov 2016 20:53:49 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/oldtest2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What I wish I knew before I was twenty</title>
+      <link>http://localhost:1313/blog/whentwenty/</link>
+      <pubDate>Mon, 14 Nov 2016 15:26:33 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/whentwenty/</guid>
+      <description>&amp;rdquo;&amp;rsquo; “I don’t mean you’re all going to be happy. You’ll be unhappy – but in new, exciting and important ways.” – Edwin Land &amp;ldquo;&amp;rsquo;
+The big two oh. One thing that I do think now is that I want to make this year, the best year of my life.
+It&amp;rsquo;s the last year that I can apply for something like the Founders Fund Foundation for young entrepreneurs, and its something that I have been putting myself to do something for years.</description>
+    </item>
+    
+    <item>
+      <title>Oldertest2</title>
+      <link>http://localhost:1313/blog/blog/oldertest2/</link>
+      <pubDate>Mon, 30 Nov 2015 12:31:46 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/oldertest2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oldertest1</title>
+      <link>http://localhost:1313/blog/blog/oldertest1/</link>
+      <pubDate>Mon, 30 Nov 2015 12:31:36 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/oldertest1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oldesttest1</title>
+      <link>http://localhost:1313/blog/blog/oldesttest1/</link>
+      <pubDate>Sat, 30 Nov 2013 12:32:42 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/oldesttest1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
