@@ -2,7 +2,6 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "Origami"
-publishDir = "docs"
 [taxonomies]
   category = "categories"
   tag = "tags"
