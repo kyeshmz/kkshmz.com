@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:sass": "node-sass static-src/bundle-style.scss > static/css/style.css",
+    "build:front": "node-sass static-src/landing.scss > static/css/landing.css",
     "build:post": "node-sass static-src/post.scss > static/css/post.css",
     "watch:post": "onchange static-src/post.scss -- npm run build:post",
+    "watch:front": "onchange static-src/landing.scss -- npm run build:front",
     "watch:sass": "onchange static-src/*.scss -- npm run build:sass",
     "build:js": "browserify static-src/index.js > static/js/bundle.js",
     "watch:js": "onchange 'static-src/index.js' -- npm run build:js",
