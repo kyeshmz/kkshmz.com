@@ -14,8 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9">
 	<meta http-equiv="content-language" content="en">
 	<!-- ERASE THIS SHIT SO THAT IT DOESNT REDIRECT -->
-    <meta http-equiv="refresh" content="0; url={{ .Site.BaseURL/blog/}}" />
-    <link rel="stylesheet" href="{{.Site.BaseURL }}/css/style.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/landing.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <!-- GOOGLE + -->
@@ -38,66 +37,29 @@
 
 
 </head>
-
-
-
-<body>
-<header id="top-bar">
-<a id="title"><span>KKSHMZ</span></a>
-</header>
-<section class="" id="projects" style="visibility: inherit;opacity: 1;">
-<ul id="prj-list">
-<li class="prj-item" style="color: red;">
-	<div class="prj-img-wrap">
-		<a class="prj-img-wrap-link" href="/project/" style="color:red; transform: matrix(1, 0, 0, 1, 0, 0);">
-		<span class="prj-img-ratio" style="padding-bottom: 134.04%; width: 480px; height: 680px;">
-			<img class="lazyload prj-img" src="/img/slush16-h807.jpg" data-sizes="auto" data-srcset="/img/slush16-x480.jpg 480w, /img/slush16-h807.jpg 896w" width="400" height="400">
-		</span>
-		</a>
-	</div>
-	<div class="prj-title-wrap" style="margin-top: -38px; width: 205px;">
-	<div class="prj-left-line" style=" "></div>
-	<a class="prj-title" href="">dfadfads</a>
-	<div class="prj-right-line" style=""></div>
-	</div>
-	<div class="prj-color-wrap" >
-		<div class="prj-color" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-	</div>
-</li>
-</ul>
-<a id="more-prj" href="/projects/"><span>More projects</span>
-	<span id="more-prj-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7" height="29" viewBox="0 0 7 29"><path fill="none" d="M7 25l-3 3H3l-3-3M3.5 0v29"/></svg></span>
-</a>
-</section>
-    <nav id="nav" style="visibility: inherit;opacity: 1;">
-    	<div id="nav-col">
-        <a class="nav-btn" href="/about/"><span>About</span></a>
-        <br>
-        <a class="nav-btn" href="/blog/"><span>Blog</span></a>
-        <br>
-        <a class="nav-btn" id="nav-last" href="/projects/"><span>Projects</span></a>
-        </div>
-        <div id="social-nav">
-            <a class="social-items" href="www.facebook.com/">FACEBOOK
-		<span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.7 257.7"><path d="M243.5 257.7c7.9 0 14.2-6.4 14.2-14.2V14.2c0-7.9-6.4-14.2-14.2-14.2H14.2C6.4 0 0 6.4 0 14.2v229.3c0 7.9 6.4 14.2 14.2 14.2h229.3z"/><path fill="#FFF" d="M177.8 257.7v-99.8h33.5l5-38.9h-38.5V94.2c0-11.3 3.1-18.9 19.3-18.9h20.6V40.5c-3.6-.5-15.8-1.5-30-1.5-29.7 0-50 18.1-50 51.4V119h-33.6v38.9h33.6v99.8h40.1z"/></svg>
-		</span>
-	</a>
-            <a class="social-items" href="www.instagram.com/kkshmz">INSTAGRAM
-	<span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.5 85.4"><path d="M61.7 0H23.9C10.7 0 0 10.7 0 23.8v37.8c0 13.1 10.7 23.8 23.8 23.8h37.9c13.1 0 23.8-10.7 23.8-23.8V23.8C85.5 10.7 74.8 0 61.7 0zm16.8 61.6c0 9.3-7.6 16.8-16.8 16.8H23.9c-9.3 0-16.8-7.6-16.8-16.8V23.8C7.1 14.5 14.7 7 23.9 7h37.8c9.3 0 16.8 7.6 16.8 16.8v37.8z"/><path d="M42.8 20.6c-12.2 0-22.1 10-22.1 22.1 0 12.2 9.9 22.1 22.1 22.1s22.1-9.9 22.1-22.1c0-12.1-9.9-22.1-22.1-22.1zm0 37.2c-8.3 0-15.1-6.8-15.1-15.1s6.8-15.1 15.1-15.1 15.1 6.8 15.1 15.1-6.8 15.1-15.1 15.1z"/><circle cx="65.5" cy="20.2" r="5.7"/></svg>
-	</span>
-	</a>
-            <a class="social-items" href="www.twitter.com/kyeshimizu">TWITTER
-            	<span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19.5"><path d="M24 2.3c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2C19.3.6 18 0 16.6 0c-3.2 0-5.5 3-4.8 6C7.7 5.8 4.1 3.9 1.7.9.4 3.1 1 6 3.2 7.5c-.8-.1-1.6-.3-2.2-.6-.1 2.3 1.6 4.4 3.9 4.9-.7.2-1.5.2-2.2.1.6 2 2.4 3.4 4.6 3.4-2.1 1.6-4.7 2.3-7.3 2 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14.3-7.7 14-14.6 1-.7 1.8-1.6 2.5-2.6z"/></svg>
-            	</span>
-            </a>
-            <a class="social-items" href="www.twitter.com/kyeshimizu">GITHUB
-            	<span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19.5"><path d="M24 2.3c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2C19.3.6 18 0 16.6 0c-3.2 0-5.5 3-4.8 6C7.7 5.8 4.1 3.9 1.7.9.4 3.1 1 6 3.2 7.5c-.8-.1-1.6-.3-2.2-.6-.1 2.3 1.6 4.4 3.9 4.9-.7.2-1.5.2-2.2.1.6 2 2.4 3.4 4.6 3.4-2.1 1.6-4.7 2.3-7.3 2 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14.3-7.7 14-14.6 1-.7 1.8-1.6 2.5-2.6z"/></svg>
-            	</span>
-            </a>
-        </div>
+<body class="fade-in" cz-shortcut-listen="true">
+    <nav id="nav">
+      <a href="{{ .Site.BaseURL}}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
+      <div id="projectnav"></div>
     </nav>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script src="{{.Site.BaseURL }}/js/bundle.js"></script>
-</body>
+    <article id="article" class="stale"></article>
+    <article id="article2" class="article">
+      <quote id="greeter"><a href="https://willy-vvu.github.io/#" onclick="bloom(this);var c=document.getElementById(&#39;contact&#39;);return opendelayed(c.children[Math.random()*c.children.length|0]);" class="styled">Kye Shimizu</a> is a design engineer studying <a href="https://willy-vvu.github.io/#BrittleBits" onclick="bloom(this);" class="styled">Design</a> and <a href="https://willy-vvu.github.io/#PoetryGenerator" onclick="bloom(this)" class="styled">Digital Media</a> at Keio SFC.<br>I create <a href="https://willy-vvu.github.io/#EmojiGame" onclick="bloom(this);" class="styled">playful</a>, <a href="https://willy-vvu.github.io/#SonicPiCommander" onclick="bloom(this);" class="styled">creative</a>, <a href="https://willy-vvu.github.io/#LaserSushi" onclick="bloom(this);" class="styled">sensory</a> experiences to <a href="https://willy-vvu.github.io/#Changes" onclick="bloom(this);" class="styled">learn</a>, <a href="https://willy-vvu.github.io/#SuspendedTime" onclick="bloom(this);" class="styled">teach</a>, <a href="https://willy-vvu.github.io/#StrengthInNumbers" onclick="bloom(this);" class="styled">connect</a>, and <a href="https://willy-vvu.github.io/#QuantumForest" onclick="bloom(this);" class="styled">inspire</a>.
 
+        <div id="contact">
+          <a href="https://www.facebook.com/kye.shimizu/" title="Facebook" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon facebook"></span></a>
+          <a href="https://www.twitter.com/kyeshimizu/" title="Twitter" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon twitter"></span></a>
+          <a href="https://www.instagram.com/kkshmz/" title="Instagram" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon instagram"></span></a>
+          <a href="https://github.com/kkshmz" title="GitHub" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon github"></span></a>
+          <a href="mailto:kyeshimizu@gmail.com" title="Email" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon email"></span></a>
+        </div>
+      </quote>
+    </article>
+    <section id="projects">
+            <a class="project" href="{{ .Site.BaseURL}}projects/yn18ss" onclick="go(this);"><span class="imglite" style="padding-top:75%;background-image:url(&#39;small/SuspendedTime.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADLklEQVQ4T1VU30vaURT/XEvNtPSrmduyCWGWSBjsQZAgZDBag+q1sYf1uNFTxBqLjehf6WlPzVg09iCzYZQVQUXUQKgcm861zDLNr9/uOCeM7cLh3Hu/537O5/z6inA4LNva2qDT6VgcDgdrWsfHx1hZWUF9fT1GRkZQV1eH6+trSClZa5rGUq1WWdOd6O/vlzabjS+tViuy2Sx2dnYY0GKxYGZmBtPT02zs9/sRCARuAemO3pGuVCq8F8TQ6XTCZDLBbDZjYWEB8Xgc8/PzCIVCmJubw/LyMqLRKAYGBqDX6zE0NMQO/2V5dXUFVVVvAAmIwlIUhcHokcFgYCZkRGfSZEPidrv5rqWlhUFJKB3lchnC4XDIxsZGNmhubsbs7CwmJiYYgIxIDw8PY2lpic+vIxG8PzyE1+tF4mscnV1e+HwBEMP19XWIrq4ueXZ2ho6ODrTlfiGpafC034fX78dmcg3Fi58Q1yaoVQ1GvQk6XR3cHhceDTzBh49RNBlMyOTy0ColjI+PQ/h8PimE4Mq+DQfxJraKqVdTMBoMsCkKFhcXsbq6iufPnuJLNIrU2TnePXyA+EkB39IFXGplFEpFqBclLqoIhUKytbUVhUKBS08htre3cwp0EFC1KhoaDDg5ySOfP0GhcIFgMAhKU0VVASmxtbXFIXd3d0N0dnbKcDiMvb09Ti57EQKPBwfRFLTAVb4Di8mCX9kshJA4Okpjf3+fW2pzc5OJUHTn5+ecY+HxeGStqlQUrarhrvseXrwcx+XlBRpUiZT8A49+DZ8+m7GxkYCQgGI1I/P7lPuPuqGmhdPplEajES6XC3a7nRlGIhGuuNFkwPH3H9ALHXZ3d1lOT0+5X4kNsSMwWv8BEmUKk4SAx8bGOCTaJxIJZDIZ9PT0cNPTONJ4Uq6LxeJtD5ZKpZuQbTabrM0oNW1vby+oSMSUei2VSiGfzzNoOp3mPUVEJIhVbWLojkfPbrdL+kgVJuDJyUnEYjFmSwaUhu3tbZ5jKgIln+b54ODg9idC74kMORCKonAfEhit0dFR7j0KK5fLgUKh8ChX5IB0X18fkskkO6Vz7e9E57/p3rifeY6GagAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>Suspended Time</h3><time>Jan 2017</time><p>Student time use, visualized.</p></summary></a>
+            <a class="project" href="{{ .Site.BaseURL}}projects/exchangewhere" onclick="go(this);"><span class="imglite" style="padding-top:75%;background-image:url(&#39;small/SuspendedTime.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADLklEQVQ4T1VU30vaURT/XEvNtPSrmduyCWGWSBjsQZAgZDBag+q1sYf1uNFTxBqLjehf6WlPzVg09iCzYZQVQUXUQKgcm861zDLNr9/uOCeM7cLh3Hu/537O5/z6inA4LNva2qDT6VgcDgdrWsfHx1hZWUF9fT1GRkZQV1eH6+trSClZa5rGUq1WWdOd6O/vlzabjS+tViuy2Sx2dnYY0GKxYGZmBtPT02zs9/sRCARuAemO3pGuVCq8F8TQ6XTCZDLBbDZjYWEB8Xgc8/PzCIVCmJubw/LyMqLRKAYGBqDX6zE0NMQO/2V5dXUFVVVvAAmIwlIUhcHokcFgYCZkRGfSZEPidrv5rqWlhUFJKB3lchnC4XDIxsZGNmhubsbs7CwmJiYYgIxIDw8PY2lpic+vIxG8PzyE1+tF4mscnV1e+HwBEMP19XWIrq4ueXZ2ho6ODrTlfiGpafC034fX78dmcg3Fi58Q1yaoVQ1GvQk6XR3cHhceDTzBh49RNBlMyOTy0ColjI+PQ/h8PimE4Mq+DQfxJraKqVdTMBoMsCkKFhcXsbq6iufPnuJLNIrU2TnePXyA+EkB39IFXGplFEpFqBclLqoIhUKytbUVhUKBS08htre3cwp0EFC1KhoaDDg5ySOfP0GhcIFgMAhKU0VVASmxtbXFIXd3d0N0dnbKcDiMvb09Ti57EQKPBwfRFLTAVb4Di8mCX9kshJA4Okpjf3+fW2pzc5OJUHTn5+ecY+HxeGStqlQUrarhrvseXrwcx+XlBRpUiZT8A49+DZ8+m7GxkYCQgGI1I/P7lPuPuqGmhdPplEajES6XC3a7nRlGIhGuuNFkwPH3H9ALHXZ3d1lOT0+5X4kNsSMwWv8BEmUKk4SAx8bGOCTaJxIJZDIZ9PT0cNPTONJ4Uq6LxeJtD5ZKpZuQbTabrM0oNW1vby+oSMSUei2VSiGfzzNoOp3mPUVEJIhVbWLojkfPbrdL+kgVJuDJyUnEYjFmSwaUhu3tbZ5jKgIln+b54ODg9idC74kMORCKonAfEhit0dFR7j0KK5fLgUKh8ChX5IB0X18fkskkO6Vz7e9E57/p3rifeY6GagAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>Suspended Time</h3><time>Jan 2017</time><p>Student time use, visualized.</p></summary></a>
+            <a class="project" href="https://willy-vvu.github.io/#SuspendedTime" onclick="go(this);"><span class="imglite" style="padding-top:75%;background-image:url(&#39;small/SuspendedTime.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADLklEQVQ4T1VU30vaURT/XEvNtPSrmduyCWGWSBjsQZAgZDBag+q1sYf1uNFTxBqLjehf6WlPzVg09iCzYZQVQUXUQKgcm861zDLNr9/uOCeM7cLh3Hu/537O5/z6inA4LNva2qDT6VgcDgdrWsfHx1hZWUF9fT1GRkZQV1eH6+trSClZa5rGUq1WWdOd6O/vlzabjS+tViuy2Sx2dnYY0GKxYGZmBtPT02zs9/sRCARuAemO3pGuVCq8F8TQ6XTCZDLBbDZjYWEB8Xgc8/PzCIVCmJubw/LyMqLRKAYGBqDX6zE0NMQO/2V5dXUFVVVvAAmIwlIUhcHokcFgYCZkRGfSZEPidrv5rqWlhUFJKB3lchnC4XDIxsZGNmhubsbs7CwmJiYYgIxIDw8PY2lpic+vIxG8PzyE1+tF4mscnV1e+HwBEMP19XWIrq4ueXZ2ho6ODrTlfiGpafC034fX78dmcg3Fi58Q1yaoVQ1GvQk6XR3cHhceDTzBh49RNBlMyOTy0ColjI+PQ/h8PimE4Mq+DQfxJraKqVdTMBoMsCkKFhcXsbq6iufPnuJLNIrU2TnePXyA+EkB39IFXGplFEpFqBclLqoIhUKytbUVhUKBS08htre3cwp0EFC1KhoaDDg5ySOfP0GhcIFgMAhKU0VVASmxtbXFIXd3d0N0dnbKcDiMvb09Ti57EQKPBwfRFLTAVb4Di8mCX9kshJA4Okpjf3+fW2pzc5OJUHTn5+ecY+HxeGStqlQUrarhrvseXrwcx+XlBRpUiZT8A49+DZ8+m7GxkYCQgGI1I/P7lPuPuqGmhdPplEajES6XC3a7nRlGIhGuuNFkwPH3H9ALHXZ3d1lOT0+5X4kNsSMwWv8BEmUKk4SAx8bGOCTaJxIJZDIZ9PT0cNPTONJ4Uq6LxeJtD5ZKpZuQbTabrM0oNW1vby+oSMSUei2VSiGfzzNoOp3mPUVEJIhVbWLojkfPbrdL+kgVJuDJyUnEYjFmSwaUhu3tbZ5jKgIln+b54ODg9idC74kMORCKonAfEhit0dFR7j0KK5fLgUKh8ChX5IB0X18fkskkO6Vz7e9E57/p3rifeY6GagAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>Suspended Time</h3><time>Jan 2017</time><p>Student time use, visualized.</p></summary></a>
+        <a class="project" href="https://willy-vvu.github.io/#EForm" onclick="go(this);"><span class="imglite" style="padding-top:99%;background-image:url(&#39;small/EForm.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAACj0lEQVQ4T51UO44aQRCtAWYGWAhYEXACs7viIw5gy0KLRGDLKSFIxBtZdrBn4AQEnIALgIRICQgJbFn8PwGL+CT8d6xX42qGdWJ5pFH11HS/fq/qdWuH3dGiP49l2UNN00jG8u9fo7bfHiwszmaz1G63KRAI0Pl8JsMwFKjH42E8t9vNOdM0+T/mJhIJyufzlEqlbDIA3Gw2FI1GFYDL5WKWAJAx4uvrK78YS/54PPK8brdrA0LycrmkZDJJ2+2WgfAKI7A7nU6k6zrnwBBgiJiHDRD7/f6F4Xq9pru7OzVJFgJMmCEnrOS/5JBXDCEZDO/v7xkQ9QMbpzQZ4z/kCSsAop747vV6F4ar1YoeHh4I9cAiAAIYDBGR83q9dDgcGFCkYixzhsPhpYaLxYJisRgvxiIAOm0j9YI0kSkbSoMUICTP53OKx+PMEPTFi1Ir5ISJ1BUsxVpgOhgMLpJnsxkDii2cRQcTsEDEQucLUGzwF+BkMqFqtUrPz89UqVSoWCyyVQTI2U3IBzORD0B8X9lmPB4r2wCwUCioLsuRE8s8Pj5Ss9lUzQEYmI5Go0tT0HJ0+Wyd6NvX71QqlZSBWT5ZpHvsRoGRyEQUSylANKXT6VAul6Ofv35QOp2mRqNhnxTNPsNgFw6HCW6AA1AzOTlgh/GV5FarRR8+vufFoVCIYHQBFDPDh/v9nnw+n7ok/H4/OwNMr4xdq9Xo85dPyi7Oa8zwmHQ6n+jGf0O73Y6CwSBLR9NQPzyIV4D1ep0ymQyZPrt7Ti9alkambjALuVnK5TI9PT1xDpKx5koydsEF0e/36OVlQdPplOt1e3vLRy4SiXCdotF3ZHq9ZOgGn2EwfXsR83349mSIVf4n/gb7GrZuAvRnbAAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>E-Form</h3><time>Jun 2017</time><p>Expressive multitouch music controller.</p></summary></a>
+        <a class="project" href="https://willy-vvu.github.io/#SuspendedTime" onclick="go(this);"><span class="imglite" style="padding-top:75%;background-image:url(&#39;small/SuspendedTime.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADLklEQVQ4T1VU30vaURT/XEvNtPSrmduyCWGWSBjsQZAgZDBag+q1sYf1uNFTxBqLjehf6WlPzVg09iCzYZQVQUXUQKgcm861zDLNr9/uOCeM7cLh3Hu/537O5/z6inA4LNva2qDT6VgcDgdrWsfHx1hZWUF9fT1GRkZQV1eH6+trSClZa5rGUq1WWdOd6O/vlzabjS+tViuy2Sx2dnYY0GKxYGZmBtPT02zs9/sRCARuAemO3pGuVCq8F8TQ6XTCZDLBbDZjYWEB8Xgc8/PzCIVCmJubw/LyMqLRKAYGBqDX6zE0NMQO/2V5dXUFVVVvAAmIwlIUhcHokcFgYCZkRGfSZEPidrv5rqWlhUFJKB3lchnC4XDIxsZGNmhubsbs7CwmJiYYgIxIDw8PY2lpic+vIxG8PzyE1+tF4mscnV1e+HwBEMP19XWIrq4ueXZ2ho6ODrTlfiGpafC034fX78dmcg3Fi58Q1yaoVQ1GvQk6XR3cHhceDTzBh49RNBlMyOTy0ColjI+PQ/h8PimE4Mq+DQfxJraKqVdTMBoMsCkKFhcXsbq6iufPnuJLNIrU2TnePXyA+EkB39IFXGplFEpFqBclLqoIhUKytbUVhUKBS08htre3cwp0EFC1KhoaDDg5ySOfP0GhcIFgMAhKU0VVASmxtbXFIXd3d0N0dnbKcDiMvb09Ti57EQKPBwfRFLTAVb4Di8mCX9kshJA4Okpjf3+fW2pzc5OJUHTn5+ecY+HxeGStqlQUrarhrvseXrwcx+XlBRpUiZT8A49+DZ8+m7GxkYCQgGI1I/P7lPuPuqGmhdPplEajES6XC3a7nRlGIhGuuNFkwPH3H9ALHXZ3d1lOT0+5X4kNsSMwWv8BEmUKk4SAx8bGOCTaJxIJZDIZ9PT0cNPTONJ4Uq6LxeJtD5ZKpZuQbTabrM0oNW1vby+oSMSUei2VSiGfzzNoOp3mPUVEJIhVbWLojkfPbrdL+kgVJuDJyUnEYjFmSwaUhu3tbZ5jKgIln+b54ODg9idC74kMORCKonAfEhit0dFR7j0KK5fLgUKh8ChX5IB0X18fkskkO6Vz7e9E57/p3rifeY6GagAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>Suspended Time</h3><time>Jan 2017</time><p>Student time use, visualized.</p></summary></a>
+    </section>
 </html>
