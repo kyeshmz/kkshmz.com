@@ -10,3 +10,15 @@ ogp: "/img/projects/slushasia2016/slushasia.png"
 
 
 {{< youtube 4qy4shsT_Mo >}}
+
+
+---
+
+Credit:
+* [Mistletoe]{} 
+* [Sublingual Services]{}
+* [Kowa]{}
+* [Hot Stuff Promotion]{}
+* [Nihon Stage Production]{}
+* [Lampy J]{}
+* []{}
