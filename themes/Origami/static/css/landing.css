@@ -187,6 +187,21 @@ article p a:active, article p a.styled-dark:active {
   background-color: #eee;
   color: #383838; }
 
+ul li > a {
+  display: inline-block;
+  color: #eee;
+  background-color: #282828;
+  padding: 2px 6px;
+  margin: 2px; }
+
+ul li > a:hover {
+  background-color: #383838;
+  color: #eee; }
+
+ul li > a:active {
+  background-color: #eee;
+  color: #383838; }
+
 /* Project container */
 #projects {
   column-count: 3;
