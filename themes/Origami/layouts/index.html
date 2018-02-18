@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/landing.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <script src="./js/blotter.min.js"></script>
+    <script src="./js/channelSplitMaterial.js"></script>
+    <script src="./js/liquidDistortMaterial.js"></script>
     <!-- GOOGLE + -->
     <meta itemprop="name" content="Kye 'kkshmz' Shimizu">
     <meta itemprop="description" content="">
@@ -45,7 +48,8 @@
     <article id="article" class="stale"></article>
     <article id="article2" class="article">
       <quote id="greeter">
-        <a href="{{ .Site.BaseURL }}" onclick="bloom(this);var c=document.getElementById(&#39;contact&#39;);return opendelayed(c.children[Math.random()*c.children.length|0]);" class="styled">Kye Shimizu</a> is a design engineer studying <a href="https://willy-vvu.github.io/#BrittleBits" onclick="bloom(this);" class="styled">Design</a> and <a href="https://willy-vvu.github.io/#PoetryGenerator" onclick="bloom(this)" class="styled">Digital Media</a> at Keio SFC.<br>I create <a href="https://willy-vvu.github.io/#EmojiGame" onclick="bloom(this);" class="styled">playful</a>, <a href="https://willy-vvu.github.io/#SonicPiCommander" onclick="bloom(this);" class="styled">creative</a>, <a href="https://willy-vvu.github.io/#LaserSushi" onclick="bloom(this);" class="styled">sensory</a> experiences to <a href="https://willy-vvu.github.io/#Changes" onclick="bloom(this);" class="styled">learn</a>, <a href="https://willy-vvu.github.io/#SuspendedTime" onclick="bloom(this);" class="styled">teach</a>, <a href="https://willy-vvu.github.io/#StrengthInNumbers" onclick="bloom(this);" class="styled">connect</a>, and <a href="https://willy-vvu.github.io/#QuantumForest" onclick="bloom(this);" class="styled">inspire</a>.
+        <a href="{{ .Site.BaseURL }}"><span id="blotter">Kye Shimizu</span></a> is a design engineer studying <a href="http://www.xlab.sfc.keio.ac.jp/" class="styled">Interaction Design</a> and <a href="http://xd.sfc.keio.ac.jp/en/" class="styled">Digital Media</a> at Keio Univ.<br><br>
+        I explore the boundaries of research and design, and their implications to <a href="{{ .Site.BaseURL }}slushasia2016" class="styled">inspire</a> others,<a href="{{ .Site.BaseURL }}yn18ss" class="styled">speculate,</a> and imagine.
       </quote>
 
         <div id="contact">
@@ -61,13 +65,27 @@
         {{ range where .Data.Pages "Section" "projects"}}
         <a class="project" href="{{ .Permalink }}"><img{{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
         {{ end }}
-            <a class="project" href="{{ .Site.BaseURL}}projects/exchangewhere" onclick="go(this);"><span class="imglite" style="padding-top:75%;background-image:url(&#39;small/SuspendedTime.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADLklEQVQ4T1VU30vaURT/XEvNtPSrmduyCWGWSBjsQZAgZDBag+q1sYf1uNFTxBqLjehf6WlPzVg09iCzYZQVQUXUQKgcm861zDLNr9/uOCeM7cLh3Hu/537O5/z6inA4LNva2qDT6VgcDgdrWsfHx1hZWUF9fT1GRkZQV1eH6+trSClZa5rGUq1WWdOd6O/vlzabjS+tViuy2Sx2dnYY0GKxYGZmBtPT02zs9/sRCARuAemO3pGuVCq8F8TQ6XTCZDLBbDZjYWEB8Xgc8/PzCIVCmJubw/LyMqLRKAYGBqDX6zE0NMQO/2V5dXUFVVVvAAmIwlIUhcHokcFgYCZkRGfSZEPidrv5rqWlhUFJKB3lchnC4XDIxsZGNmhubsbs7CwmJiYYgIxIDw8PY2lpic+vIxG8PzyE1+tF4mscnV1e+HwBEMP19XWIrq4ueXZ2ho6ODrTlfiGpafC034fX78dmcg3Fi58Q1yaoVQ1GvQk6XR3cHhceDTzBh49RNBlMyOTy0ColjI+PQ/h8PimE4Mq+DQfxJraKqVdTMBoMsCkKFhcXsbq6iufPnuJLNIrU2TnePXyA+EkB39IFXGplFEpFqBclLqoIhUKytbUVhUKBS08htre3cwp0EFC1KhoaDDg5ySOfP0GhcIFgMAhKU0VVASmxtbXFIXd3d0N0dnbKcDiMvb09Ti57EQKPBwfRFLTAVb4Di8mCX9kshJA4Okpjf3+fW2pzc5OJUHTn5+ecY+HxeGStqlQUrarhrvseXrwcx+XlBRpUiZT8A49+DZ8+m7GxkYCQgGI1I/P7lPuPuqGmhdPplEajES6XC3a7nRlGIhGuuNFkwPH3H9ALHXZ3d1lOT0+5X4kNsSMwWv8BEmUKk4SAx8bGOCTaJxIJZDIZ9PT0cNPTONJ4Uq6LxeJtD5ZKpZuQbTabrM0oNW1vby+oSMSUei2VSiGfzzNoOp3mPUVEJIhVbWLojkfPbrdL+kgVJuDJyUnEYjFmSwaUhu3tbZ5jKgIln+b54ODg9idC74kMORCKonAfEhit0dFR7j0KK5fLgUKh8ChX5IB0X18fkskkO6Vz7e9E57/p3rifeY6GagAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>Suspended Time</h3><time>Jan 2017</time><p>Student time use, visualized.</p></summary></a>
-            <a class="project" href="" onclick="go(this);"><span class="imglite" style="padding-top:75%;background-image:url(&#39;small/SuspendedTime.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADLklEQVQ4T1VU30vaURT/XEvNtPSrmduyCWGWSBjsQZAgZDBag+q1sYf1uNFTxBqLjehf6WlPzVg09iCzYZQVQUXUQKgcm861zDLNr9/uOCeM7cLh3Hu/537O5/z6inA4LNva2qDT6VgcDgdrWsfHx1hZWUF9fT1GRkZQV1eH6+trSClZa5rGUq1WWdOd6O/vlzabjS+tViuy2Sx2dnYY0GKxYGZmBtPT02zs9/sRCARuAemO3pGuVCq8F8TQ6XTCZDLBbDZjYWEB8Xgc8/PzCIVCmJubw/LyMqLRKAYGBqDX6zE0NMQO/2V5dXUFVVVvAAmIwlIUhcHokcFgYCZkRGfSZEPidrv5rqWlhUFJKB3lchnC4XDIxsZGNmhubsbs7CwmJiYYgIxIDw8PY2lpic+vIxG8PzyE1+tF4mscnV1e+HwBEMP19XWIrq4ueXZ2ho6ODrTlfiGpafC034fX78dmcg3Fi58Q1yaoVQ1GvQk6XR3cHhceDTzBh49RNBlMyOTy0ColjI+PQ/h8PimE4Mq+DQfxJraKqVdTMBoMsCkKFhcXsbq6iufPnuJLNIrU2TnePXyA+EkB39IFXGplFEpFqBclLqoIhUKytbUVhUKBS08htre3cwp0EFC1KhoaDDg5ySOfP0GhcIFgMAhKU0VVASmxtbXFIXd3d0N0dnbKcDiMvb09Ti57EQKPBwfRFLTAVb4Di8mCX9kshJA4Okpjf3+fW2pzc5OJUHTn5+ecY+HxeGStqlQUrarhrvseXrwcx+XlBRpUiZT8A49+DZ8+m7GxkYCQgGI1I/P7lPuPuqGmhdPplEajES6XC3a7nRlGIhGuuNFkwPH3H9ALHXZ3d1lOT0+5X4kNsSMwWv8BEmUKk4SAx8bGOCTaJxIJZDIZ9PT0cNPTONJ4Uq6LxeJtD5ZKpZuQbTabrM0oNW1vby+oSMSUei2VSiGfzzNoOp3mPUVEJIhVbWLojkfPbrdL+kgVJuDJyUnEYjFmSwaUhu3tbZ5jKgIln+b54ODg9idC74kMORCKonAfEhit0dFR7j0KK5fLgUKh8ChX5IB0X18fkskkO6Vz7e9E57/p3rifeY6GagAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>Suspended Time</h3><time>Jan 2017</time><p>Student time use, visualized.</p></summary></a>
-        <a class="project" href="" onclick="go(this);"><span class="imglite" style="padding-top:99%;background-image:url(&#39;small/EForm.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAACj0lEQVQ4T51UO44aQRCtAWYGWAhYEXACs7viIw5gy0KLRGDLKSFIxBtZdrBn4AQEnIALgIRICQgJbFn8PwGL+CT8d6xX42qGdWJ5pFH11HS/fq/qdWuH3dGiP49l2UNN00jG8u9fo7bfHiwszmaz1G63KRAI0Pl8JsMwFKjH42E8t9vNOdM0+T/mJhIJyufzlEqlbDIA3Gw2FI1GFYDL5WKWAJAx4uvrK78YS/54PPK8brdrA0LycrmkZDJJ2+2WgfAKI7A7nU6k6zrnwBBgiJiHDRD7/f6F4Xq9pru7OzVJFgJMmCEnrOS/5JBXDCEZDO/v7xkQ9QMbpzQZ4z/kCSsAop747vV6F4ar1YoeHh4I9cAiAAIYDBGR83q9dDgcGFCkYixzhsPhpYaLxYJisRgvxiIAOm0j9YI0kSkbSoMUICTP53OKx+PMEPTFi1Ir5ISJ1BUsxVpgOhgMLpJnsxkDii2cRQcTsEDEQucLUGzwF+BkMqFqtUrPz89UqVSoWCyyVQTI2U3IBzORD0B8X9lmPB4r2wCwUCioLsuRE8s8Pj5Ss9lUzQEYmI5Go0tT0HJ0+Wyd6NvX71QqlZSBWT5ZpHvsRoGRyEQUSylANKXT6VAul6Ofv35QOp2mRqNhnxTNPsNgFw6HCW6AA1AzOTlgh/GV5FarRR8+vufFoVCIYHQBFDPDh/v9nnw+n7ok/H4/OwNMr4xdq9Xo85dPyi7Oa8zwmHQ6n+jGf0O73Y6CwSBLR9NQPzyIV4D1ep0ymQyZPrt7Ti9alkambjALuVnK5TI9PT1xDpKx5koydsEF0e/36OVlQdPplOt1e3vLRy4SiXCdotF3ZHq9ZOgGn2EwfXsR83349mSIVf4n/gb7GrZuAvRnbAAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>E-Form</h3><time>Jun 2017</time><p>Expressive multitouch music controller.</p></summary></a>
-        <a class="project" href="" onclick="go(this);"><span class="imglite" style="padding-top:75%;background-image:url(&#39;small/SuspendedTime.jpg&#39;),url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADLklEQVQ4T1VU30vaURT/XEvNtPSrmduyCWGWSBjsQZAgZDBag+q1sYf1uNFTxBqLjehf6WlPzVg09iCzYZQVQUXUQKgcm861zDLNr9/uOCeM7cLh3Hu/537O5/z6inA4LNva2qDT6VgcDgdrWsfHx1hZWUF9fT1GRkZQV1eH6+trSClZa5rGUq1WWdOd6O/vlzabjS+tViuy2Sx2dnYY0GKxYGZmBtPT02zs9/sRCARuAemO3pGuVCq8F8TQ6XTCZDLBbDZjYWEB8Xgc8/PzCIVCmJubw/LyMqLRKAYGBqDX6zE0NMQO/2V5dXUFVVVvAAmIwlIUhcHokcFgYCZkRGfSZEPidrv5rqWlhUFJKB3lchnC4XDIxsZGNmhubsbs7CwmJiYYgIxIDw8PY2lpic+vIxG8PzyE1+tF4mscnV1e+HwBEMP19XWIrq4ueXZ2ho6ODrTlfiGpafC034fX78dmcg3Fi58Q1yaoVQ1GvQk6XR3cHhceDTzBh49RNBlMyOTy0ColjI+PQ/h8PimE4Mq+DQfxJraKqVdTMBoMsCkKFhcXsbq6iufPnuJLNIrU2TnePXyA+EkB39IFXGplFEpFqBclLqoIhUKytbUVhUKBS08htre3cwp0EFC1KhoaDDg5ySOfP0GhcIFgMAhKU0VVASmxtbXFIXd3d0N0dnbKcDiMvb09Ti57EQKPBwfRFLTAVb4Di8mCX9kshJA4Okpjf3+fW2pzc5OJUHTn5+ecY+HxeGStqlQUrarhrvseXrwcx+XlBRpUiZT8A49+DZ8+m7GxkYCQgGI1I/P7lPuPuqGmhdPplEajES6XC3a7nRlGIhGuuNFkwPH3H9ALHXZ3d1lOT0+5X4kNsSMwWv8BEmUKk4SAx8bGOCTaJxIJZDIZ9PT0cNPTONJ4Uq6LxeJtD5ZKpZuQbTabrM0oNW1vby+oSMSUei2VSiGfzzNoOp3mPUVEJIhVbWLojkfPbrdL+kgVJuDJyUnEYjFmSwaUhu3tbZ5jKgIln+b54ODg9idC74kMORCKonAfEhit0dFR7j0KK5fLgUKh8ChX5IB0X18fkskkO6Vz7e9E57/p3rifeY6GagAAAABJRU5ErkJggg==&#39;);"></span><summary><h3>Suspended Time</h3><time>Jan 2017</time><p>Student time use, visualized.</p></summary></a>
     </section>
   
+    <!-- <script>
+        var text = new Blotter.Text("Kye Shimizu", {
+          family : "serif",
+          size : 80,
+          fill : "#FD5307"
+        });
+  
+        var material = new Blotter.LiquidDistortMaterial();
 
+      material.uniforms.uSpeed.value = 0.9;
+      material.unforms.uVolatility.value = 0.54;
+      material.uniforms.uSeed.value = 3.03;
+  
+        var blotter = new Blotter(material, { texts : text });
+  
+        var scope = blotter.forText(text);
+        var elem = document.getElementById("blotter");
+        scope.appendTo(elem);
+      </script> -->
     <script>
 
     ripple = document.getElementById("ripple");
@@ -98,5 +116,6 @@
         'px;width:'+elem.offsetWidth+
         'px;height:'+elem.offsetHeight+'px;"></div>';
     }
+
 </script>
 </html>
