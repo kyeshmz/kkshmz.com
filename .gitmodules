@@ -1,4 +1,8 @@
 [submodule "public"]
 	path = public
+<<<<<<< HEAD
 	url = https://github.com/kkshmz/kkshmz.github.io.git
+=======
+	url = git@github.com:kkshmz/kkshmz.github.io.git
+>>>>>>> f9647dd05e8397f755286b6c3f569e4e3bde253d
 	branch = master
