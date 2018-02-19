@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9">
 	<meta http-equiv="content-language" content="en">
 	<!-- ERASE THIS SHIT SO THAT IT DOESNT REDIRECT -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/landing.css">
+    <link rel="stylesheet" href="./css/landing.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <script src="./js/blotter.min.js"></script>
@@ -49,7 +49,7 @@
     <article id="article2" class="article">
       <quote id="greeter">
         <a href="{{ .Site.BaseURL }}"><span id="blotter">Kye Shimizu</span></a> is a design engineer studying <a href="http://www.xlab.sfc.keio.ac.jp/" class="styled">Interaction Design</a> and <a href="http://xd.sfc.keio.ac.jp/en/" class="styled">Digital Media</a> at Keio Univ.<br><br>
-        I explore the boundaries of research and design, and their implications to <a href="{{ .Site.BaseURL }}slushasia2016" class="styled">inspire</a> others,<a href="{{ .Site.BaseURL }}yn18ss" class="styled">speculate,</a> and imagine.
+        I explore the boundaries of research and design, and their implications to <a href="./slushasia2016" class="styled">inspire</a> others,<a href="./yn18ss" class="styled">speculate,</a> and imagine.
       </quote>
 
         <div id="contact">
@@ -63,7 +63,7 @@
     </article>
     <section id="projects">
         {{ range where .Data.Pages "Section" "projects"}}
-        <a class="project" href="{{ .Permalink }}"><img{{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
+        <a class="project" href="{{ .RelPermalink }}"><img{{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
         {{ end }}
     </section>
   
