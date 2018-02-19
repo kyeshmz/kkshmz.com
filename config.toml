@@ -1,8 +1,9 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://kkshmz.github.io/"
+relativeURLs = "true"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "Origami"
-publishDir = "docs"
+publishDir = "public"
 [taxonomies]
   category = "categories"
   tag = "tags"
