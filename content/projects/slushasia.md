@@ -10,6 +10,7 @@ ogp: "/img/projects/slushasia2016/slushasia.png"
 
 
 {{< youtube 4qy4shsT_Mo >}}
+
 Slush Asia is a project that was started in 2015 with the help of Taizo Son and members of Mistletoe, being the first international Slush that was held outside of Finland.
 Slush is originally an event that brings together entrepreneurs, investors, startups and students together to discuss and collaborate on working towards the future.
 \\\\

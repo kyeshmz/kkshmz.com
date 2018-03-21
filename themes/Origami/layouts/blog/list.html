@@ -10,14 +10,16 @@
     <meta name="copyright" content="Kye 'kkshmz' Shimizu">
     <meta name="author" content="Kye 'kkshmz' Shimizu">
     {{ .Hugo.Generator }}
-
+    <meta name="pinterest" content="nopin" description="Sorry, no pinning of images on this site please!" />
     <meta http-equiv="X-UA-Compatible" content="IE=9">
-    <meta http-equiv="content-language" content="en">
-    
-    <link rel="stylesheet" href="{{.Site.BaseURL }}/css/post.css">
+	<meta http-equiv="content-language" content="en">
+	<!-- ERASE THIS SHIT SO THAT IT DOESNT REDIRECT -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/blog.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Signika:400,600,700" rel="stylesheet"> 
+    <script src="./js/blotter.min.js"></script>
+    <script src="./js/channelSplitMaterial.js"></script>
+    <script src="./js/liquidDistortMaterial.js"></script>
     <!-- GOOGLE + -->
     <meta itemprop="name" content="Kye 'kkshmz' Shimizu">
     <meta itemprop="description" content="">
@@ -38,39 +40,84 @@
 
 
 </head>
-<body class="blg-post-page">
-{{partial "header.html" }}
-<div class="blg-posts">
-    {{ range (where .Data.Pages "Type" "single").GroupByDate "2006" }}
-    <section class="yr-postlist">
-        <span class="blg-yr">{{ .Key }}</span>
-            <ul class="blg-postlist">
-                    {{ range .Pages }}
-                <li class="blg-post">
-                    <article>
-                        <a href="{{ .Permalink }}">
-                            <h4 class="blg-title">{{ .Title}}</h3>
-                            <p class="blg-postdate">{{ .Date }}</p>
-                            <p class="blg-desc">{{ .Description }}</h4>
-                        </a>
-                    </article>
-                </li>
-                {{ end }}
-            </ul>
+<body class="fade-in" cz-shortcut-listen="true">
+    <nav id="nav">
+      <a href="{{ .Site.BaseURL}}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
+      <div id="projectnav">
+        <a href="{{ .Site.BaseURL}}about/" class="styled">About</a>
+        <a href="" class="styled">Blog</a>
+      </div>
+    </nav>
+    <article id="article" class="stale"></article>
+    <article id="article2" class="article">
+      <quote id="greeter">
+        <p>This is just some of the stuff that comes to my mind throughout the day</p>
+      </quote>
+
+        <div id="contact">
+          <a href="https://www.facebook.com/kye.shimizu/" title="Facebook" target="_blank" class="icon social" onclick="bloom(this);return opendelayed(this);">{{ partial "facebook.html" }}</a>
+          <a href="https://www.twitter.com/kyeshimizu/" title="Twitter" target="_blank"  onclick="bloom(this);return opendelayed(this);">{{ partial "twitter.html" }}</a>
+          <a href="https://www.instagram.com/kkshmz/" title="Instagram" target="_blank" onclick="bloom(this);return opendelayed(this);">{{ partial "instagram.html" }}</a>
+          <a href="https://github.com/kkshmz" title="GitHub" target="_blank"  onclick="bloom(this);return opendelayed(this);">{{ partial "github.html" }}</a>
+          <a href="mailto:kyeshimizu@gmail.com" title="Email" target="_blank"  onclick="bloom(this);return opendelayed(this);">{{ partial "gmail.html" }}</a>
+        </div>
+      </quote>
+    </article>
+    <section id="blog">
+        {{ range where .Data.Pages "Section" "blog"}}
+        <a class="project" href="{{ .RelPermalink }}"><img{{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
+        {{ end }}
     </section>
-    {{ end }}
-</div>
-    <div class="blg-images">
-        <div class="blg-image">
-            <img src="">
-        </div>
-        <div class="blg-image">
-                <img src="">
-        </div>
-        <div class="blg-image">
-                <img src="">
-        </div>
-    </div> 
-{{ partial "footer.html" }}
-</body>
+  
+    <!-- <script>
+        var text = new Blotter.Text("Kye Shimizu", {
+          family : "serif",
+          size : 80,
+          fill : "#FD5307"
+        });
+  
+        var material = new Blotter.LiquidDistortMaterial();
+
+      material.uniforms.uSpeed.value = 0.9;
+      material.unforms.uVolatility.value = 0.54;
+      material.uniforms.uSeed.value = 3.03;
+  
+        var blotter = new Blotter(material, { texts : text });
+  
+        var scope = blotter.forText(text);
+        var elem = document.getElementById("blotter");
+        scope.appendTo(elem);
+      </script> -->
+    <script>
+
+    ripple = document.getElementById("ripple");
+
+    function opendelayed(elem){
+        var href = elem.getAttribute("href");
+        if(href&&href[0]!="#"){
+          setTimeout(function(){window.open(href,"_blank");}, 350);
+          return false;
+        };
+      }
+
+    function bloom(elem){
+      fromLink = true;
+      requestScroll = true;
+      var position = {
+        offsetLeft:0,
+        offsetTop:0
+      }, e = elem;
+      do{
+        for(var o in position){
+          position[o] += e[o];
+        }
+      }while(e = e.offsetParent);
+
+      ripple.innerHTML = '<div class="ripple" style="left:'+position.offsetLeft+
+        'px;top:'+position.offsetTop+
+        'px;width:'+elem.offsetWidth+
+        'px;height:'+elem.offsetHeight+'px;"></div>';
+    }
+
+</script>
 </html>

@@ -6,21 +6,29 @@ draft: false
 layout: "single"
 ogp: "/img/projects/actfestival18/cover.jpg"
 ---
----
 {{< youtube pGoWKeSWufQ >}}
 
-Original work by [Rhizomatiks](https://rhizomatiks.com/), I was asked to partake in the update and installation of [Sensing Streams](https://research.rhizomatiks.com/s/works/sensing_streams/en/) for ACT Festival Korea 2018.
+---
 
-With the theme of this year's festival being, [Otherly Space Knowledge](https://www.acc.go.kr/board/schedule/exhibition/1914)
+Original work by [Rhizomatiks](https://rhizomatiks.com/) and Ryuichi Sakamoto, I was asked to partake in the update and installation of [Sensing Streams](https://research.rhizomatiks.com/s/works/sensing_streams/en/) for ACT Festival Korea 2018 held in Gwanju, South Korea.
+
+With the theme of this year's festival being, [Otherly Space Knowledge](https://www.acc.go.kr/board/schedule/exhibition/1914) , [Rhizomatiks](https://rhizomatiks.com/) was asked to exhibit [Sensing Streams](https://research.rhizomatiks.com/s/works/sensing_streams/en/) for its outlook on radio waves around us that we cannot see, but use everyday.
+
+The installation is reactive to the radio frequencies that are sensed realtime throughout the room , creating a realization of the waves around us.
+
+Below are some of the visualizations created from the Gwanju radio waves.
+
+{{< img src="/img/projects/sensingstreams/background_02.png" title="Radio wave lines" >}}
+{{< img src="/img/projects/sensingstreams/background_03.png" title="Radio wave FFT Visualized" >}}
+
 
 
 
 ---
-
 ### Credit:
-* Curation / Content Supervision: Abe Kazunao
+* Curating Director: Abe Kazunao
 * Direction & Programming : Daito Manabe
-* Sound Programming : Satoshi Hama
+* Software Assistance : [Kye Shimizu]( {{ .Site.BaseURL }})
 
 ### Original Project Credits:
 
@@ -41,3 +49,4 @@ With the theme of this year's festival being, [Otherly Space Knowledge](https://
   * Tomohiro Takahashi 高橋 知宏
   * Kyle McDonald カイル・マクドナルド
   * Misaki Horai 蓬萊 美咲
+

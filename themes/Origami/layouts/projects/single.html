@@ -14,9 +14,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9">
 	<meta http-equiv="content-language" content="en">
 	<!-- ERASE THIS SHIT SO THAT IT DOESNT REDIRECT -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/landing.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/post.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:700" rel="stylesheet">
     <!-- GOOGLE + -->
     <meta itemprop="name" content="Kye 'kkshmz' Shimizu">
     <meta itemprop="description" content="">
@@ -42,22 +42,29 @@
           <a href="{{ .Site.BaseURL }}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
           <div id="projectnav">
               <nav class="projectnav">
-                  <a href="{{ .Site.BaseURL}}about/">About</a>
-              <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project">
+                 <a href="{{ .Site.BaseURL}}about/" class="styled">About</a>
+                 <a href="{{ .Site.BaseURL}}blog/" class="styled">Blog</a>
+              <!-- <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project">
                   <span class="icon left"></span></a>
                   <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project">
-                      <span class="icon right"></span></a>
+                      <span class="icon right"></span></a> -->
                 </nav>
             </div>
         </nav>
         <article id="article" class="article">
             <h1>{{ .Title}}</h1>
             <h4>{{ .Description }}</h4>
-        <hr>
     <img class="imglite" href="{{ .Params.ogp }}">
     <p>{{ .Content }}</p>
-
+    <!-- <footer>
+        <div class="footer-row">
+            <p>-</p>
+            <p>kyeshimizu@gmail.com</p>
+            <p></p>
+        </div>
+    </footer> -->
     </article>
+    
 
     <nav class="projectnav">
         <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project"><span class="icon left"></span>

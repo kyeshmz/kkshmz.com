@@ -12,17 +12,10 @@
     {{ .Hugo.Generator }}
     <meta name="pinterest" content="nopin" description="Sorry, no pinning of images on this site please!" />
     <meta http-equiv="X-UA-Compatible" content="IE=9">
-<<<<<<< HEAD
 	<meta http-equiv="content-language" content="en">
 	<!-- ERASE THIS SHIT SO THAT IT DOESNT REDIRECT -->
     <link rel="stylesheet" href="./css/landing.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
-=======
-    <meta http-equiv="content-language" content="en" />
-    <meta http-equiv="refresh" content="0; url={{ .Site.BaseURL }}blog/">
-	<meta http-equiv="refresh" content="1; url={{ .Site.BaseURL }}blog/">
-	<link rel="stylesheet" href=" {{ .Site.BaseURL }}css/style.css">
->>>>>>> f9647dd05e8397f755286b6c3f569e4e3bde253d
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <script src="./js/blotter.min.js"></script>
     <script src="./js/channelSplitMaterial.js"></script>
@@ -50,21 +43,24 @@
 <body class="fade-in" cz-shortcut-listen="true">
     <nav id="nav">
       <a href="{{ .Site.BaseURL}}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
-      <div id="projectnav"></div>
+      <div id="projectnav">
+        <a href="{{ .Site.BaseURL}}about/" class="styled">About</a>
+        <a href="{{ .Site.BaseURL}}blog/" class="styled">Blog</a>
+      </div>
     </nav>
     <article id="article" class="stale"></article>
     <article id="article2" class="article">
       <quote id="greeter">
-        <a href="{{ .Site.BaseURL }}"><span id="blotter">Kye Shimizu</span></a> is a design engineer studying <a href="http://www.xlab.sfc.keio.ac.jp/" class="styled">Interaction Design</a> and <a href="http://xd.sfc.keio.ac.jp/en/" class="styled">Digital Media</a> at Keio Univ.<br><br>
+        <a href="{{ .Site.BaseURL }}">Kye Shimizu</a> is a design engineer studying <a href="http://www.xlab.sfc.keio.ac.jp/" class="styled">Interaction Design</a> and <a href="http://xd.sfc.keio.ac.jp/en/" class="styled">Digital Media</a> at Keio Univ.<br><br>
         I explore the boundaries of research and design, and their implications to <a href="./slushasia2016" class="styled">inspire</a> others,<a href="./yn18ss" class="styled">speculate,</a> and imagine.
       </quote>
 
         <div id="contact">
-          <a href="https://www.facebook.com/kye.shimizu/" title="Facebook" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon facebook"></span></a>
-          <a href="https://www.twitter.com/kyeshimizu/" title="Twitter" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon twitter"></span></a>
-          <a href="https://www.instagram.com/kkshmz/" title="Instagram" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon instagram"></span></a>
-          <a href="https://github.com/kkshmz" title="GitHub" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon github"></span></a>
-          <a href="mailto:kyeshimizu@gmail.com" title="Email" target="_blank" class="styled-dark" onclick="bloom(this);return opendelayed(this);"><span class="icon email"></span></a>
+          <a href="https://www.facebook.com/kye.shimizu/" title="Facebook" target="_blank" class="icon social" onclick="bloom(this);return opendelayed(this);">{{ partial "facebook.html" }}</a>
+          <a href="https://www.twitter.com/kyeshimizu/" title="Twitter" target="_blank"  onclick="bloom(this);return opendelayed(this);">{{ partial "twitter.html" }}</a>
+          <a href="https://www.instagram.com/kkshmz/" title="Instagram" target="_blank" onclick="bloom(this);return opendelayed(this);">{{ partial "instagram.html" }}</a>
+          <a href="https://github.com/kkshmz" title="GitHub" target="_blank"  onclick="bloom(this);return opendelayed(this);">{{ partial "github.html" }}</a>
+          <a href="mailto:kyeshimizu@gmail.com" title="Email" target="_blank"  onclick="bloom(this);return opendelayed(this);">{{ partial "gmail.html" }}</a>
         </div>
       </quote>
     </article>

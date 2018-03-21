@@ -13,26 +13,26 @@ Inital concepts about the collection were traded among our team and the fashion 
 
 Inspirations came from attractors and gravity fields, which held beauty in being simple mathmatical equations that harvested detailed graphical outputs
 
-![](/img/projects/yn18ss/of-gravity.png)
+{{< img src="/img/projects/yn18ss/of-gravity.png" title="Gravity Visualized" >}}
 
 Prototypes were created using laser fabrication machines, which allowed for precise cutting and also enabling programmable interactions
 
-![](/img/projects/yn18ss/laser.jpg)
+{{< img src="/img/projects/yn18ss/laser.png" title="Laser etching leather" >}}
 
 White leather material was used along side recycled material from parachutes to car bags, with the theme of protecting the user.
 From history, many of the clothing that were used for space exploration
 
 Each piece of the fashion show was custom generated through software that would cut the sections to fit the user.
 
-![](/img/projects/yn18ss/grasshopper.jpg)
+{{< img src="/img/projects/yn18ss/grasshopper.jpg" title="Parametric Calculation" >}}
 
 Not only does this allow for comfortability of the clothing itself, but also allows for spot refabrication when parts of the clothing deteriorate with time or the ability to modularly change the form of the clothing when needed.
 
-![](/img/projects/yn18ss/yn18ss-dress1.jpg)
+{{< img src="/img/projects/yn18ss/yn18ss-dress1.jpg" title="At Paris Fashion Show" >}}
 
 
 --- 
-In collaboration with: 
+### Credit:
 
 * [YUIMA NAKAZATO](http://www.yuimanakazato.com/)
 * [Noiz Architects](http://noizarchitects.com/)

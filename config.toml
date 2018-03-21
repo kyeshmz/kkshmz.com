@@ -1,15 +1,9 @@
 baseURL = "https://kkshmz.github.io/"
-<<<<<<< HEAD
 relativeURLs = "true"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "Origami"
 publishDir = "public"
-=======
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "Origami"
->>>>>>> f9647dd05e8397f755286b6c3f569e4e3bde253d
 [taxonomies]
   category = "categories"
   tag = "tags"

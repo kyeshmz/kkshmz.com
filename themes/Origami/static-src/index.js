@@ -3,6 +3,7 @@
 var $ = require('jquery');
 var TWEEN = require('@tweenjs/tween.js');
 var lazysizes = require('lazysizes');
+var hljs = require('highlight.js');
 
 // lazysizes.lazySizesConfig.lazyClass = 'lazysizes';
 
@@ -21,20 +22,4 @@ $(".prj-img").ready(function() {
     var img_w = this.width;
     $(this).prev(prj-img-ratio).height(img_h).width(img_w);
 });
-
-    // // $(this).find(".prj-left-line").toggleClass('active').removeClass('active');
-    // $(this).find('.prj-left-line, .prj-right-line').toggleClass('active').removeClass('active');
-    var text = new Blotter.Text("Kye", {
-        family : "san-serif",
-        size : 60,
-        fill : "#171717"
-      });
-    
-      var material = new Blotter.ChannelSplitMaterial();
-      
-    
-      var blotter = new Blotter(material, { texts : text });
-    
-      var scope = blotter.forText(text);
-    
-      scope.appendTo(document.body);
+hljs.initHighlightingOnLoad();

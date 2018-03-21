@@ -1,5 +1,5 @@
 https://www.louiseveillard.com/projets/couvertures-generatives
-
+npm needs 2.7 or 3.4<
 
 
 How to use some of the shortcodes on this thing.

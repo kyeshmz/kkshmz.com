@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="google" value="notranslate">
+    <meta name="copyright" content="Kye 'kkshmz' Shimizu">
+    <meta name="author" content="Kye 'kkshmz' Shimizu">
+    {{ .Hugo.Generator }}
+    <meta name="pinterest" content="nopin" description="Sorry, no pinning of images on this site please!" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+	<meta http-equiv="content-language" content="en">
+	<!-- ERASE THIS SHIT SO THAT IT DOESNT REDIRECT -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/landing.css">
+   <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- GOOGLE + -->
+    <meta itemprop="name" content="Kye 'kkshmz' Shimizu">
+    <meta itemprop="description" content="">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@kyeshimizu">
+    <meta name="twitter:title" content="Kye 'kkshmz' Shimizu">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:creator" content="@kkshmz">
+
+    <!-- FACEBOOK -->
+    <meta property="og:title" content="Kye 'kkshmz' Shimizu">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:site_name" content="Kye 'kkshmz' Shimizu">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="">
+
+
+</head>
+<body class="fade-in" cz-shortcut-listen="true">
+        <nav id="nav">
+          <a href="{{ .Site.BaseURL }}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
+          <div id="projectnav">
+              <nav class="projectnav">
+                <!---  <a href="{{ .Site.BaseURL}}about/">About</a> -->
+              <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project">
+                  <span class="icon left"></span></a>
+                  <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project">
+                      <span class="icon right"></span></a>
+                </nav>
+            </div>
+        </nav>
+        <article id="article" class="article">
+            <h1>{{ .Title}}</h1>
+            <h4>{{ .Description }}</h4>
+        <hr>
+    <img class="imglite" href="{{ .Params.ogp }}">
+    <p>{{ .Content }}</p>
+
+    </article>
+
+    <nav class="projectnav">
+        <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project"><span class="icon left"></span>
+            <span class="navtext" style="margin-left:-4px;margin-right:12px;">Newer</span></a>
+            <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project"><span class="navtext" style="margin-right:-4px;margin-left:12px;">Older</span><span class="icon right"></span></a>
+        </nav>
+</body>
+</html>

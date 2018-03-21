@@ -13,7 +13,9 @@
     "watch:sass": "onchange static-src/*.scss -- npm run build:sass",
     "build:js": "browserify static-src/index.js > static/js/bundle.js",
     "watch:js": "onchange 'static-src/index.js' -- npm run build:js",
-    "check:js": "jslint static-src/index.js"
+    "check:js": "jslint static-src/index.js",
+    "build:blog": "node-sass static-src/blog.scss > static/css/blog.css",
+    "watch:blog": "onchange static-src/blog.scss -- npm run build:blog"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +28,7 @@
     "onchange": "^3.2.1"
   },
   "dependencies": {
+    "highlight.js": "^9.12.0",
     "jquery": "^3.2.1",
     "normalize-scss": "^7.0.0"
   }
