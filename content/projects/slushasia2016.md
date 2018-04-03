@@ -13,7 +13,7 @@ ogp: "/img/projects/slushasia2016/slushasia.png"
 
 Slush Asia is a project that was started in 2015 with the help of Taizo Son and members of Mistletoe, being the first international Slush that was held outside of Finland.
 Slush is originally an event that brings together entrepreneurs, investors, startups and students together to discuss and collaborate on working towards the future.
-\\\\
+
 
 Slush Asia 2016 was the first event that respected the ways in which Slush in Finland was organized and run by wholly by approximately 2000 students in Finland. Slush Asia 2016 itself was run by approximately 600 volunteers, with a core team of around 15 people who were not only dedicated on organizing the volunteer student body, but also organized the curation of the event.
 
@@ -26,7 +26,8 @@ The theme of the event was "Dialogue between mankind and technology" with speake
 
 Custom lanterns made out of Japanese paper called "washi" were designed not only for the aesthetic around the venue, but also to 
 
-This iteration of the lanterns were also used in 2017, with sponsored partners such as [Recruit]().
+This iteration of the lanterns were also used in 2017, with sponsored partners such as [Recruit](https://www.recruit.jp).
+
 
 \\\\
 

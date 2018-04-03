@@ -32,7 +32,10 @@ This project was made in joint with Slush Asia 2016, comprised fully of student 
 
 {{< img src="/img/projects/junctionasia2016/final.jpg" >}}
 
-Project Website: [2016](http://www.junction.asia/)
+Project Website: [2016](http://junctionasia.github.io/jp/index_jp.html)
+
+Designed and created with Jekyll
+
 
 Current Website: [Current](https://tokyo.hackjunction.com/)
 

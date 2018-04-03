@@ -40,6 +40,4 @@ Mile Stones
 * Worked at [Paris Fashion Couture Show Project]({{ .Site.BaseURL}}yn18ss) through technical research with [YUIMA NAKAZATO](http://www.yuimanakazato.com) and [mznlab](http://www.daijirom.com)
 
 * Worked for [Rhizomatiks](www.rhizomatiks.com) for Sensing Streams in Korea
-* 
 
-2017
