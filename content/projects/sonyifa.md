@@ -4,7 +4,7 @@ description: "Exhibition of the Xperia XZ"
 date: 2016-09-16T19:38:04+09:00
 draft: false
 layout: "single"
-ogp: "/projects/ifa2016/sonyifa.jpg"
+ogp: "/img/projects/ifa2016/sonyifa.jpg"
 ---
 ---
 {{< youtube M8fhSf9ZLnw >}}
