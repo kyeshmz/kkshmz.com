@@ -41,28 +41,23 @@
         <nav id="nav">
           <a href="{{ .Site.BaseURL }}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
           <div id="projectnav">
-              <nav class="projectnav">
-                <!---  <a href="{{ .Site.BaseURL}}about/">About</a> -->
-              <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project">
-                  <span class="icon left"></span></a>
-                  <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project">
-                      <span class="icon right"></span></a>
-                </nav>
+                <div id="projectnav">
+                        <a href="{{ .Site.BaseURL}}about/" class="styled">About</a>
+                        <a href="{{ .Site.BaseURL}}blog/" class="styled">Blog</a>
+                </div>
             </div>
         </nav>
         <article id="article" class="article">
             <h1>{{ .Title}}</h1>
             <h4>{{ .Description }}</h4>
         <hr>
-    <img class="imglite" href="{{ .Params.ogp }}">
+     <img href="{{ .Site.BaseURL }}img/profile.jpg" style="height: 1000px;">
+    <figure>
+    <img href="{{ .Params.ogp }}" style="height:1000px;" >
+    </figure>
     <p>{{ .Content }}</p>
 
     </article>
 
-    <nav class="projectnav">
-        <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project"><span class="icon left"></span>
-            <span class="navtext" style="margin-left:-4px;margin-right:12px;">Newer</span></a>
-            <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project"><span class="navtext" style="margin-right:-4px;margin-left:12px;">Older</span><span class="icon right"></span></a>
-        </nav>
 </body>
 </html>

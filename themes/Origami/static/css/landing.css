@@ -68,9 +68,10 @@ nav {
   max-width: 1318px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
   padding-left: 30px;
-  padding-right: 30px;
-  margin: 0 auto 2em auto; }
+  padding-right: 30px; }
 
 article, header {
   max-width: 1008px;
@@ -178,6 +179,15 @@ article img, .imglite {
   width: 100%;
   height: auto;
   z-index: 1; }
+
+article figure {
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 article hr {
   border-color: #555;

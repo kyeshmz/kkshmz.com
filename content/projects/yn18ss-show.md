@@ -15,7 +15,9 @@ As part of the [YUIMA NAKAZATO Paris Couture 18SS]({{ .Site.BaseURL }}/projects/
 "Mobile Factory" is a key concept behind the show pieces, speculating on the future of fashion where fashion itself is not limited to the studio of the fashion designer or the factory.
 
 
-
+{{< img src="/img/projects/yn18show/yn18ssmodelset-1.jpg" >}}
+{{< img src="/img/projects/yn18show/yn18ssmodelset-2.jpg" >}}
+{{< img src="/img/projects/yn18show/yn18ssmodelset-3.jpg" >}}
 
 ----
 ### Credit

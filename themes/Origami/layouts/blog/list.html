@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/blog.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
     <script src="./js/blotter.min.js"></script>
     <script src="./js/channelSplitMaterial.js"></script>
     <script src="./js/liquidDistortMaterial.js"></script>
@@ -65,29 +66,9 @@
     </article>
     <section id="blog">
         {{ range where .Data.Pages "Section" "blog"}}
-        <a class="project" href="{{ .RelPermalink }}"><img{{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
+        <a class="post" href="{{ .RelPermalink }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
         {{ end }}
     </section>
-  
-    <!-- <script>
-        var text = new Blotter.Text("Kye Shimizu", {
-          family : "serif",
-          size : 80,
-          fill : "#FD5307"
-        });
-  
-        var material = new Blotter.LiquidDistortMaterial();
-
-      material.uniforms.uSpeed.value = 0.9;
-      material.unforms.uVolatility.value = 0.54;
-      material.uniforms.uSeed.value = 3.03;
-  
-        var blotter = new Blotter(material, { texts : text });
-  
-        var scope = blotter.forText(text);
-        var elem = document.getElementById("blotter");
-        scope.appendTo(elem);
-      </script> -->
     <script>
 
     ripple = document.getElementById("ripple");

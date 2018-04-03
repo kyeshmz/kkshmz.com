@@ -17,7 +17,7 @@ Inspirations came from attractors and gravity fields, which held beauty in being
 
 Prototypes were created using laser fabrication machines, which allowed for precise cutting and also enabling programmable interactions
 
-{{< img src="/img/projects/yn18ss/laser.png" title="Laser etching leather" >}}
+{{< img src="/img/projects/yn18ss/laser.jpg" title="Laser etching leather" >}}
 
 White leather material was used along side recycled material from parachutes to car bags, with the theme of protecting the user.
 From history, many of the clothing that were used for space exploration
