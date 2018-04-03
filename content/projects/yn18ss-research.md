@@ -6,6 +6,8 @@ draft: false
 layout: "single"
 ogp: "/img/projects/yn18ss/earthlaser.jpg"
 ---
+{{< img src="/img/projects/yn18ss/earthlaser.jpg" >}}
+
 ---
 Being invited by Daijiro Mizuno Lab, I explored the technical possibilities and researched for initial prototypes and creation for the Yuima Nakazato 2018 Spring Summer Paris Couture Fashion Week.
 
