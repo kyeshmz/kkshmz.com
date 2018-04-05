@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>Title</title>
-    <meta name="description" content="">
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .Description }}">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="google" value="notranslate">
     <meta name="copyright" content="Kye 'kkshmz' Shimizu">
@@ -19,13 +19,13 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <!-- GOOGLE + -->
     <meta itemprop="name" content="Kye 'kkshmz' Shimizu">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content=" {{ .Description }}">
 
     <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@kyeshimizu">
     <meta name="twitter:title" content="Kye 'kkshmz' Shimizu">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content="{{ .Description }}">
     <meta name="twitter:creator" content="@kkshmz">
 
     <!-- FACEBOOK -->
@@ -33,7 +33,7 @@
     <meta property="og:url" content="{{ .Site.BaseURL }}">
     <meta property="og:site_name" content="Kye 'kkshmz' Shimizu">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="{{ .Description }}">
 
 
 </head>

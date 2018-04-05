@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>Title</title>
+    <title>{{ .Title }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="google" value="notranslate">
@@ -18,22 +18,23 @@
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:700" rel="stylesheet">
     <!-- GOOGLE + -->
-    <meta itemprop="name" content="Kye 'kkshmz' Shimizu">
-    <meta itemprop="description" content="">
+    <meta itemprop="name" content="{{ .Title }}">
+    <meta itemprop="description" content="{{ .Description }}">
 
     <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@kyeshimizu">
-    <meta name="twitter:title" content="Kye 'kkshmz' Shimizu">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Description }}">
     <meta name="twitter:creator" content="@kkshmz">
 
     <!-- FACEBOOK -->
-    <meta property="og:title" content="Kye 'kkshmz' Shimizu">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:image" content="{{ .Params.ogp }}">
     <meta property="og:url" content="{{ .Site.BaseURL }}">
     <meta property="og:site_name" content="Kye 'kkshmz' Shimizu">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="{{ .Description }}">
 
 
 </head>
@@ -52,7 +53,7 @@
             </div>
         </nav>
         <article id="article" class="article">
-            <h1>{{ .Title}}</h1>
+            <h1>{{ .Title }}</h1>
             <h4>{{ .Description }}</h4>
              <p>{{ .Content }}</p>
     <!-- <footer>
@@ -65,10 +66,10 @@
     </article>
     
 
-    <nav class="projectnav">
+    <!-- <nav class="projectnav">
         <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project"><span class="icon left"></span>
             <span class="navtext" style="margin-left:-4px;margin-right:12px;">Newer</span></a>
             <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project"><span class="navtext" style="margin-right:-4px;margin-left:12px;">Older</span><span class="icon right"></span></a>
-        </nav>
+        </nav> -->
 </body>
 </html>
