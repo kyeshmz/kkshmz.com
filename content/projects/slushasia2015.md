@@ -1,35 +1,36 @@
 ---
-title: "Slushasia2015"
-description: ""
+title: "Slush Asia 2015"
+description: "Creation of a international startup event in Japan"
 date: 2018-04-04T01:13:02+09:00
-draft: true
+draft: false
 layout: "single"
-ogp: ""
+ogp: "/img/projects/slushasia2015/2015_ogp.jpg"
 ---
 ---
 
 
 
-{{< youtube 4qy4shsT_Mo >}}
+{{< youtube ECq5djyIP8o >}}
 
 Slush Asia is a project that was started in 2015 with the help of Taizo Son and members of Mistletoe, being the first international Slush that was held outside of Finland.
 Slush is originally an event that brings together entrepreneurs, investors, startups and students together to discuss and collaborate on working towards the future.
-{{< img src="/img/projects/slushasia2016/overview.jpg" title="overview of the venue">}}
+{{< img src="/img/projects/slushasia2015/2015_overview_venue.jpg" title="Overview of mainstage">}}
 
-Slush Asia 2016 was the first event that respected the ways in which Slush in Finland was organized and run by wholly by approximately 2000 students in Finland. Slush Asia 2016 itself was run by approximately 600 volunteers, with a core team of around 15 people who were not only dedicated on organizing the volunteer student body, but also organized the curation of the event.
+Slush Asia 2015 was held in an outside venue in Odaiba, with the use of "White Rock" dome shaped tents that gave a certain appeal of "exploration" that the startups themselves are doing in terms of business
+{{< img src="/img/projects/slushasia2015/2015_overview_all.jpg" title="Overview of mainstage">}}
 
-I was responsible for the production of the event venue, working along side designers and producers from [Sun Effects Oy](http://www.suneffects.fi/) and various production partners who helped make the event possible.
+Slush Asia was the first of its kind, but brought in a multitude of speakers from different backgrounds to inspire the next generation of entreprenuers and give mentoring to those currently.
 
-{{< img src="/img/projects/slushasia2016/caddrawing.png" title="CAD drawing of the venue made in VectorWorks">}}
+{{< img src="/img/projects/slushasia2015/2015-speakers.jpg" title="Speakers from 2015">}}
 
-The theme of the event was "Dialogue between mankind and technology" with speakers such as ian Wang, CTO of Alibaba Group, Nikesh Arora, President of SoftBank, Yoshito Hori, Director of Globis, Geoff Lewis, Partner at Founders Fund,James Riney, Head of 500 Startups Japan, and Paul Bragiel, Managing Partner at I/O Ventures.
-{{< img src="/img/projects/slushasia2016/speakers.png" title="Speakers of 2016, with a agenda on diversity">}}
-{{< img src="/img/projects/slushasia2016/mainstage.jpg">}}
+I was not only responsible for some of the overview of the event itself, but also for some of the accomodatino of hte speakers such as Tom Kelley from IDEO and Dave McClure from 500 Startups.
 
-Custom lanterns made out of Japanese paper called "washi" were designed not only for the aesthetic around the venue, but also to 
-{{< img src="/img/projects/slushasia2016/lanterns.png">}}
+{{< img src="/img/projects/slushasia2015/2015-tomkelley.jpg" title="Tom Kelley speaking on the mainstage">}}
 
-This iteration of the lanterns were also used in 2017, with sponsored partners such as [Recruit](https://www.recruit.jp).
+Not only was the event a resounding success among the visitors, but also was a first step into a entreprenurial movement in Japan.
+
+{{< img src="/img/projects/slushasia2015/2015-numbers.jpg" title="2015 in Numbers">}}
+
 
 ---
 ### Media:
