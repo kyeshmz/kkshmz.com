@@ -4,7 +4,7 @@ description: "Project with SJQ++ and Sonilab"
 date: 2018-02-13T01:30:28+09:00
 draft: false
 layout: "single"
-ogp: "/img/projects/actfestival18/cover.jpg"
+ogp: "/img/projects/whereexchange/ogp.png"
 ---
 {{< youtube xrcHsGHTEdU >}}
 
