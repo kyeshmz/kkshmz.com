@@ -9,7 +9,7 @@ ogp: "/img/projects/actfestival18/cover.jpg"
 {{< youtube xrcHsGHTEdU >}}
 
 This is a project that was created in collaboration with [Sonilab](http://sonilab.org/contents/about) and [SJQ++](http://sjq.jp/sjqpp/).
-[Sonilab](http://sonilab.org/contents/about) is a creative group of producers that aim to give a different perspective to how we interact with music.
+[Sonilab](http://sonilab.org/contents/about) is a creative group of producers that aim to give a different perspective to how we interact with music. Being a member of [Sonilab](http://sonilab.org/contents/about), I was in charge of creating the scraping mechanism for the sounds, rearrange them into genres, and also the scraping mechanism for the images for the interactive tablet in the museum.
 
 This porject with [SJQ++](http://sjq.jp/sjqpp/) was created for the Chiba City Museum of Art and videographer [Hayashi Yuki](http://kanyukuyuki.tumblr.com), creating a live interactive installation that is interactive both offline and online.
 
@@ -25,8 +25,8 @@ The photo is then turned into an agent organism that is represented by lines and
 
 When the agent is born into the new enviornment, the agent releases sound that is scraped from the web, representing its origin from the vast web.
 
-{{< img src="/img/projects/whereexchange/droppedagent.jpg" title="Agents are dropped into existence" >}}
-{{< img src="/img/projects/whereexchange/agentpool.jpg" title="Agents give off sound to the atmosphere" >}}
+{{< img src="/img/projects/whereexchange/droppedagent.jpg" title="Agents are dropped into existence and give off sound" >}}
+{{< img src="/img/projects/whereexchange/agentpool.jpg" title="A pool of agents interacting and giving off sound" >}}
 
 * Project Page : [The Whereabouts of Exchange [JP]](http://www.ccma-net.jp/exhibition_end/2017/0204/0204.html)
 * Application Page : [Exchange App](https://yaritori.site/)
@@ -36,6 +36,7 @@ When the agent is born into the new enviornment, the agent releases sound that i
 ### Credit:
 
 * Back End Engineer : [Nao Yonamine](https://mohayonao.github.io/)
-* Stage Production : 
 * Production : NO ARCHITECTS, [night cruising](http://nightcruising.jp/about/)
-* Web programming : [Kye Shimizu]( {{ .Site.BaseURL }})
+* [Sonilab](http://sonilab.org/contents/about) 
+ * Web programming : [Kye Shimizu]( {{ .Site.BaseURL }})
+ * Graphic programming : 
