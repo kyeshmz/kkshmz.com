@@ -1,7 +1,7 @@
 ---
 title: "Yuima Nakazato 18SS Research"
 description: "Technical Research for realizing democratic couture fashion"
-date: 2018-02-13T01:12:08+09:00
+date: 2017-12-13T01:12:08+09:00
 draft: false
 layout: "single"
 ogp: "/img/projects/yn18ss/earthlaser.jpg"
@@ -16,6 +16,11 @@ Inital concepts about the collection were traded among our team and the fashion 
 Inspirations came from attractors and gravity fields, which held beauty in being simple mathmatical equations that harvested detailed graphical outputs
 
 {{< img src="/img/projects/yn18ss/of-gravity.png" title="Gravity Visualized" >}}
+
+
+
+<div style="width:100%;height:100%;padding-bottom:50%;position:relative;align-contents:center;">
+<iframe src="https://giphy.com/embed/26Ff8EBrDFNmQpyoM" width="100%" height="600" style="position:absolute;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 Prototypes were created using laser fabrication machines, which allowed for precise cutting and also enabling programmable interactions
 
