@@ -217,6 +217,10 @@ article p {
   margin-right: auto;
   max-width: 768px; }
 
+article iframe.giphy-embed {
+  margin-left: auto;
+  margin-right: auto; }
+
 article h3,
 article h5 {
   margin-left: auto;
