@@ -17,20 +17,40 @@ I currently reside in [Yasuhi Kakehi's xlab](http://www.xlab.sfc.keio.ac.jp/) st
 
 &nbsp;
 
+
 Previous Employment / Education
 
-- 2017 - Now : [Rhizomatiks](http://www.rhizomatiks.com)  as an part time researcher.
+- 2017 - Current | [Rhizomatiks](http://www.rhizomatiks.com)  as a part time researcher.
+- 2015 - 2017 | Assistant for Abacus Inc.
+- 2016 | Summer Intern at [Algorithimics LLC](https://www.adgo.io/) as a designer.
+- 2015 - 2016 | [Slush Asia](tokyo.slush.org) (now Slush Tokyo) as Organizer / Production Manager
+- 2015 - 2016 | [Junction Asia](tokyo.hackjunction.com) (now Junction Tokyo) as Organizer / Production Manager
 
-- 2015 - 2017 Assistant for Abacus Inc.
-- 2016 Summer Intern at [Algorithimics LLC](https://www.adgo.io/) as a designer.
-- 2015 Enrollment into Keio, SFC Policy Management. Major in Design.
-- 2015 - 2016 [Slush Asia](tokyo.slush.org) (now Slush Tokyo) as Organizer / Production Manager
-- 2015 - 2016 [Junction Asia](tokyo.hackjunction.com) (now Junction Tokyo) as Organizer / Production Manager
   
 &nbsp;
 
 &nbsp;
 
+Education
+- 2018 - Current | Mizuno Daijiro Laboratory, XDesign Program, at Keio University
+- 2017 - Current | Yasuaki Kakehi Laboratory, XDesign Program, at Keio University
+- 2015 - Current | Enrollment into Keio University, Faculty of Policy Management. Major in Design.
+
+
+&nbsp;
+
+&nbsp;
+
+
+
+Exhibition 
+- 2017.2 [Chiba City Museum of Art]({{ .Site.BaseURL}}projects/exchangewhere/), Japan 
+- 2017.2 [Tokyo Midtown 2121_Design Sight Exhibition]({{ .Site.BaseURL }}projects/yn18ss-show/) , Japan.
+- 2017.1 [YUIMA NAKAZATO Paris Haute Couture Collection]({{ .Site.BaseURL }}projects/yn2121/), France. 
+- 2016.8 []()
+&nbsp;
+
+&nbsp;
 
 Mile Stones
 ----
