@@ -1,3 +1,5 @@
+@import './node_modules/normalize-scss/sass/_normalize.scss';
+@include normalize();
  /* Global overrides */
  @font-face {
   font-family: 'Cabin';
@@ -32,6 +34,7 @@
   h1, h2 {
     font-family: 'Roboto Bold', sans-serif;
     font-weight: 700;
+    line-height: 1.3em;
   }
   h1, h2, h3{
     letter-spacing: 0.04em;
@@ -181,7 +184,7 @@
     max-width: 1000px;
     max-height: 100%;
     display: block;
-    width:auto;
+    width:100%;
     height:auto;
     z-index: 1;
     text-align: center;
@@ -189,13 +192,15 @@
     margin: auto;
   }
   article figure {
-    height:600px;
+    height:auto;
     object-fit: cover;
     object-position: center;
     text-align: center;
     max-width: 100%;
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     // align-content: center;
   }
   article hr{
