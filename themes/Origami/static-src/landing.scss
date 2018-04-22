@@ -1,3 +1,5 @@
+@import './node_modules/normalize-scss/sass/_normalize.scss';
+@include normalize();
  /* Global overrides */
  @font-face{
     src:url("fonts/Chivo-Regular.ttf");
@@ -177,6 +179,7 @@
     max-height: 100%;
     display: block;
     height:auto;
+    width: 100%;
     z-index: 1;
     text-align: center;
     object-position: center center;
