@@ -149,7 +149,7 @@
   }
   .icon.left {background-position-x: 0px;}
   .icon.right {background-position-x: -40px;}
-  .icon.facebook {background-position-x: -80px;}
+  .icon.facebook {background-position-x: -200px;}
   .icon.twitter {background-position-x: -120px;}
   .icon.github {background-position-x: -200px;}
   .icon.instagram {background-position-x: -160px;}
@@ -180,7 +180,7 @@
     display: block;
     height:auto;
     width: 100%;
-    z-index: 1;
+    z-index: 1; 
     text-align: center;
     object-position: center center;
     // margin: auto;
