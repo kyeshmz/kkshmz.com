@@ -15,7 +15,8 @@ Inital concepts about the collection were traded among our team and the fashion 
 
 Inspirations came from attractors and gravity fields, which held beauty in being simple mathmatical equations that harvested detailed graphical outputs
 
-{{< img src="/img/projects/yn18ss/of-gravity.png" title="Gravity Visualized" >}}
+{{< img src="/img/projects/yn18ss/of-gravity1.png" >}}
+{{< img src="/img/projects/yn18ss/of-gravity2.png" title="Gravity Visualized" >}}
 
 
 

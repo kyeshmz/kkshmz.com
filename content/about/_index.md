@@ -9,7 +9,7 @@ ogp: "/img/profile.jpg"
 {{< img src="/img/profile.jpg" >}}
 
 Hi, I am a Tokyo based design engineer / researcher born in Tokyo and raised in Texas.
-My interests are at the intersection of technological affordance and design research.
+My interests are at the intersection of technological affordance and design research and how we can create that using code.
 
 I currently reside in [Yasuhi Kakehi's xlab](http://www.xlab.sfc.keio.ac.jp/) studying interaction design when it was formally taught at SFC, and also part of [Daijiro Mizuno Lab](http://www.daijirom.com/) studying the intersection of computational design and design research.
 
@@ -46,7 +46,7 @@ Education
 
 Exhibition 
 
-- 2017.2 [Whereabouts of Exchange](({{ .Site.BaseURL}}projects/exchangewhere/)) Exhibition at Chiba City Museum of Art, Japan 
+- 2017.2 [Whereabouts of Exchange]({{ .Site.BaseURL}}projects/exchangewhere/) Exhibition at Chiba City Museum of Art, Japan 
 - 2017.2 [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn18ss-show/) Tokyo Midtown 2121_Design Sight Exhibition , Japan.
 - 2017.1 [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn2121/) at Paris 2018 Haute Couture Fashion Week, France. 
 &nbsp;
