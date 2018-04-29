@@ -173,9 +173,10 @@
   article > *:first-child{
     margin-top:0;
   }
-  article img, 
+  article img
   {
-    max-width: 1000px;
+    max-width: 600px;
+    margin: auto;
     max-height: 100%;
     display: block;
     height:auto;
