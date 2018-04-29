@@ -63,7 +63,7 @@
     </article>
     <section id="projects">
         {{ range where .Data.Pages "Section" "projects"}}
-        <a class="project" href="{{ .RelPermalink }}"><img class="lazysizes" {{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
+        <div class="loadeff"><a class="project" href="{{ .RelPermalink }}"><img class="project lazyload" {{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a></div>
         {{ end }}
     </section>
     <script src="{{.Site.BaseURL }}js/lazysizes.min.js" async=""></script>

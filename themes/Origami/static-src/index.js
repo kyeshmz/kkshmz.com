@@ -5,6 +5,9 @@ var lazysizes = require('lazysizes');
 
 lazysizes.lazySizesConfig = {
     lazyClass: 'lazy', // lazyloadの対象とするクラスの指定。
+    loadingClass: 'lazyloading',
+    loadedClass: 'lazyloaded'
+    
 };
 $("ul#prj-list:first li.prj-item").hover(
     function () {

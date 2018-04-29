@@ -456,6 +456,13 @@ a.styled-dark:active .icon {
   opacity: 1;
   background-position-y: -40px; }
 
+img {
+  background: linear-gradient(#f2f2f2 77%, rgba(242, 242, 242, 0));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block; }
+
 .imglite {
   background-size: cover;
   background-position: center;
@@ -712,6 +719,103 @@ body.delayed-fade nav, body.delayed-fade article {
   transition-duration: 300ms; }
 
 /*copy(Array.from(Array(30).keys()).slice(1).map((a)=>`      .project:nth-child(${a}){transition-delay:${300+9*(a-1)}ms;}\n`).join(""));*/
+.project:nth-child(1) {
+  transition-delay: 300ms; }
+
+.project:nth-child(2) {
+  transition-delay: 309ms; }
+
+.project:nth-child(3) {
+  transition-delay: 318ms; }
+
+.project:nth-child(4) {
+  transition-delay: 327ms; }
+
+.project:nth-child(5) {
+  transition-delay: 336ms; }
+
+.project:nth-child(6) {
+  transition-delay: 345ms; }
+
+.project:nth-child(7) {
+  transition-delay: 354ms; }
+
+.project:nth-child(8) {
+  transition-delay: 363ms; }
+
+.project:nth-child(9) {
+  transition-delay: 372ms; }
+
+.project:nth-child(10) {
+  transition-delay: 381ms; }
+
+.project:nth-child(11) {
+  transition-delay: 390ms; }
+
+.project:nth-child(12) {
+  transition-delay: 399ms; }
+
+.project:nth-child(13) {
+  transition-delay: 408ms; }
+
+.project:nth-child(14) {
+  transition-delay: 417ms; }
+
+.project:nth-child(15) {
+  transition-delay: 426ms; }
+
+.project:nth-child(16) {
+  transition-delay: 435ms; }
+
+.project:nth-child(17) {
+  transition-delay: 444ms; }
+
+.project:nth-child(18) {
+  transition-delay: 453ms; }
+
+.project:nth-child(19) {
+  transition-delay: 462ms; }
+
+.project:nth-child(20) {
+  transition-delay: 471ms; }
+
+.project:nth-child(21) {
+  transition-delay: 480ms; }
+
+.project:nth-child(22) {
+  transition-delay: 489ms; }
+
+.project:nth-child(23) {
+  transition-delay: 498ms; }
+
+.project:nth-child(24) {
+  transition-delay: 507ms; }
+
+.project:nth-child(25) {
+  transition-delay: 516ms; }
+
+.project:nth-child(26) {
+  transition-delay: 525ms; }
+
+.project:nth-child(27) {
+  transition-delay: 534ms; }
+
+.project:nth-child(28) {
+  transition-delay: 543ms; }
+
+.project:nth-child(29) {
+  transition-delay: 552ms; }
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+  transition-delay: 303ms; }
+
+.loadeff,
+.lazyloaded {
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  opacity: 1; }
+
 #go.project {
   transition-delay: 600ms; }
 
