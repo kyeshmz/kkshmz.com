@@ -719,92 +719,92 @@ body.delayed-fade nav, body.delayed-fade article {
   transition-duration: 300ms; }
 
 /*copy(Array.from(Array(30).keys()).slice(1).map((a)=>`      .project:nth-child(${a}){transition-delay:${300+9*(a-1)}ms;}\n`).join(""));*/
-.project:nth-child(1) {
-  transition-delay: 300ms; }
+body.fade-in .project:nth-child(1) {
+  transition-delay: 150ms; }
 
-.project:nth-child(2) {
-  transition-delay: 309ms; }
+body.fade-in .project:nth-child(2) {
+  transition-delay: 159ms; }
 
-.project:nth-child(3) {
-  transition-delay: 318ms; }
+body.fade-in .project:nth-child(3) {
+  transition-delay: 168ms; }
 
-.project:nth-child(4) {
-  transition-delay: 327ms; }
+body.fade-in .project:nth-child(4) {
+  transition-delay: 177ms; }
 
-.project:nth-child(5) {
-  transition-delay: 336ms; }
+body.fade-in .project:nth-child(5) {
+  transition-delay: 186ms; }
 
-.project:nth-child(6) {
-  transition-delay: 345ms; }
+body.fade-in .project:nth-child(6) {
+  transition-delay: 195ms; }
 
-.project:nth-child(7) {
-  transition-delay: 354ms; }
+body.fade-in .project:nth-child(7) {
+  transition-delay: 204ms; }
 
-.project:nth-child(8) {
-  transition-delay: 363ms; }
+body.fade-in .project:nth-child(8) {
+  transition-delay: 213ms; }
 
-.project:nth-child(9) {
-  transition-delay: 372ms; }
+body.fade-in .project:nth-child(9) {
+  transition-delay: 222ms; }
 
-.project:nth-child(10) {
-  transition-delay: 381ms; }
+body.fade-in .project:nth-child(10) {
+  transition-delay: 231ms; }
 
-.project:nth-child(11) {
-  transition-delay: 390ms; }
+body.fade-in .project:nth-child(11) {
+  transition-delay: 240ms; }
 
-.project:nth-child(12) {
-  transition-delay: 399ms; }
+body.fade-in .project:nth-child(12) {
+  transition-delay: 249ms; }
 
-.project:nth-child(13) {
-  transition-delay: 408ms; }
+body.fade-in .project:nth-child(13) {
+  transition-delay: 258ms; }
 
-.project:nth-child(14) {
-  transition-delay: 417ms; }
+body.fade-in .project:nth-child(14) {
+  transition-delay: 267ms; }
 
-.project:nth-child(15) {
-  transition-delay: 426ms; }
+body.fade-in .project:nth-child(15) {
+  transition-delay: 276ms; }
 
-.project:nth-child(16) {
-  transition-delay: 435ms; }
+body.fade-in .project:nth-child(16) {
+  transition-delay: 285ms; }
 
-.project:nth-child(17) {
-  transition-delay: 444ms; }
+body.fade-in .project:nth-child(17) {
+  transition-delay: 294ms; }
 
-.project:nth-child(18) {
-  transition-delay: 453ms; }
+body.fade-in .project:nth-child(18) {
+  transition-delay: 303ms; }
 
-.project:nth-child(19) {
-  transition-delay: 462ms; }
+body.fade-in .project:nth-child(19) {
+  transition-delay: 312ms; }
 
-.project:nth-child(20) {
-  transition-delay: 471ms; }
+body.fade-in .project:nth-child(20) {
+  transition-delay: 321ms; }
 
-.project:nth-child(21) {
-  transition-delay: 480ms; }
+body.fade-in .project:nth-child(21) {
+  transition-delay: 330ms; }
 
-.project:nth-child(22) {
-  transition-delay: 489ms; }
+body.fade-in .project:nth-child(22) {
+  transition-delay: 339ms; }
 
-.project:nth-child(23) {
-  transition-delay: 498ms; }
+body.fade-in .project:nth-child(23) {
+  transition-delay: 348ms; }
 
-.project:nth-child(24) {
-  transition-delay: 507ms; }
+body.fade-in .project:nth-child(24) {
+  transition-delay: 357ms; }
 
-.project:nth-child(25) {
-  transition-delay: 516ms; }
+body.fade-in .project:nth-child(25) {
+  transition-delay: 366ms; }
 
-.project:nth-child(26) {
-  transition-delay: 525ms; }
+body.fade-in .project:nth-child(26) {
+  transition-delay: 375ms; }
 
-.project:nth-child(27) {
-  transition-delay: 534ms; }
+body.fade-in .project:nth-child(27) {
+  transition-delay: 384ms; }
 
-.project:nth-child(28) {
-  transition-delay: 543ms; }
+body.fade-in .project:nth-child(28) {
+  transition-delay: 393ms; }
 
-.project:nth-child(29) {
-  transition-delay: 552ms; }
+body.fade-in .project:nth-child(29) {
+  transition-delay: 402ms; }
 
 .lazyload,
 .lazyloading {
