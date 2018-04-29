@@ -41,8 +41,8 @@
     <nav id="nav">
       <a href="{{ .Site.BaseURL}}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
       <div id="projectnav">
-        <a href="{{ .Site.BaseURL}}about/" class="styled">About</a>
-        <a href="{{ .Site.BaseURL}}blog/" class="styled">Blog</a>
+        <a href="{{ .Site.BaseURL}}/about/" class="styled">About</a>
+        <a href="{{ .Site.BaseURL}}/blog/" class="styled">Blog</a>
       </div>
     </nav>
     <article id="article" class="stale"></article>
@@ -66,5 +66,5 @@
         <div class="loadeff"><a class="project" href="{{ .RelPermalink }}"><img class="project lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="{{ with .Params.ogp }} data-src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a></div>
         {{ end }}
     </section>
-    <script src="{{.Site.BaseURL }}js/lazysizes.min.js" async=""></script>
+    <script src="{{.Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
 </html>
