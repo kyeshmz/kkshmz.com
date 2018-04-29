@@ -1,12 +1,11 @@
-'use strict';
+// import lazysizes from 'lazysizes';
+// import hljs from 'highlight.js';
 
-var $ = require('jquery');
-var TWEEN = require('@tweenjs/tween.js');
 var lazysizes = require('lazysizes');
-var hljs = require('highlight.js');
 
-// lazysizes.lazySizesConfig.lazyClass = 'lazysizes';
-
+lazysizes.lazySizesConfig = {
+    lazyClass: 'lazy', // lazyloadの対象とするクラスの指定。
+};
 $("ul#prj-list:first li.prj-item").hover(
     function () {
         $(this).toggleClass('selected').siblings("li.prj-item").removeClass('selected');

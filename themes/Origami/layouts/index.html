@@ -63,59 +63,8 @@
     </article>
     <section id="projects">
         {{ range where .Data.Pages "Section" "projects"}}
-        <a class="project" href="{{ .RelPermalink }}"><img{{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
+        <a class="project" href="{{ .RelPermalink }}"><img class="lazysizes" {{ with .Params.ogp }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><summary><h3>{{ .Title }}</h3><time>{{.Date.Format "Jan 2006"}}</time><p> {{ .Description }}</p></summary></a>
         {{ end }}
     </section>
-  
-    <!-- <script>
-        var text = new Blotter.Text("Kye Shimizu", {
-          family : "serif",
-          size : 80,
-          fill : "#FD5307"
-        });
-  
-        var material = new Blotter.LiquidDistortMaterial();
-
-      material.uniforms.uSpeed.value = 0.9;
-      material.unforms.uVolatility.value = 0.54;
-      material.uniforms.uSeed.value = 3.03;
-  
-        var blotter = new Blotter(material, { texts : text });
-  
-        var scope = blotter.forText(text);
-        var elem = document.getElementById("blotter");
-        scope.appendTo(elem);
-      </script> -->
-    <script>
-
-    ripple = document.getElementById("ripple");
-
-    function opendelayed(elem){
-        var href = elem.getAttribute("href");
-        if(href&&href[0]!="#"){
-          setTimeout(function(){window.open(href,"_blank");}, 350);
-          return false;
-        };
-      }
-
-    function bloom(elem){
-      fromLink = true;
-      requestScroll = true;
-      var position = {
-        offsetLeft:0,
-        offsetTop:0
-      }, e = elem;
-      do{
-        for(var o in position){
-          position[o] += e[o];
-        }
-      }while(e = e.offsetParent);
-
-      ripple.innerHTML = '<div class="ripple" style="left:'+position.offsetLeft+
-        'px;top:'+position.offsetTop+
-        'px;width:'+elem.offsetWidth+
-        'px;height:'+elem.offsetHeight+'px;"></div>';
-    }
-
-</script>
+    <script src="{{.Site.BaseURL }}js/lazysizes.min.js" async=""></script>
 </html>
