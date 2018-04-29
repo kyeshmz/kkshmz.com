@@ -1,4 +1,4 @@
-baseURL = "https://kkshmz.github.io/"
+BaseURL = "https://kkshmz.github.io"
 relativeURLs = "true"
 languageCode = "en-us"
 title = "My New Hugo Site"
