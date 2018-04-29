@@ -389,11 +389,11 @@
   .lazyload,
   .lazyloading{
     opacity: 0;
-    transition-delay: 303ms;
+    visibility: hidden;
   }
   .loadeff,
   .lazyloaded {
-    transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: 2s cubic-bezier(0.215, 0.61, 0.355, 1);
     opacity: 1; 
   }
   #go.project {
