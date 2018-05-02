@@ -182,13 +182,13 @@
   article > *:first-child{
     margin-top:0;
   }
-  article img, .imglite
+  article img
   {
     max-width: 1000px;
     max-height: 100%;
     display: block;
-    width:100%;
-    height:auto;
+    width:auto;
+    height:100%;
     z-index: 1;
     text-align: center;
     object-position: center center;
