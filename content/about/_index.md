@@ -11,7 +11,7 @@ ogp: "/img/profile.jpg"
 Hi, I am a Tokyo based design engineer / researcher born in Tokyo and raised in Texas.
 My interests are at the intersection of technological affordance and design research and how we can create that using code.
 
-I currently reside in [Yasuhi Kakehi's xlab](http://www.xlab.sfc.keio.ac.jp/) studying interaction design when it was formally taught at SFC, and also part of [Daijiro Mizuno Lab](http://www.daijirom.com/) studying the intersection of computational design and design research.
+I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/) studying interaction design when it was formally taught at SFC, and also part of [Daijiro Mizuno Lab](https://www.daijirom.com/) studying the intersection of computational design and design research.
 
 &nbsp;
 
@@ -20,7 +20,7 @@ I currently reside in [Yasuhi Kakehi's xlab](http://www.xlab.sfc.keio.ac.jp/) st
 
 Previous Employment
 
-- 2017 - Current &nbsp; [Rhizomatiks](http://www.rhizomatiks.com)  as a part time researcher.
+- 2017 - Current &nbsp; [Rhizomatiks](https://www.rhizomatiks.com)  as a part time researcher.
 - 2015 - 2017 &nbsp; Assistant for Abacus Inc.
 - 2016.7 - 2016.9 &nbsp; Summer Intern at [Algorithimics LLC](https://www.adgo.io/) as a designer.
 - 2015 - 2016 &nbsp; [Slush Asia](tokyo.slush.org) (now Slush Tokyo) as Organizer / Production Manager
@@ -58,7 +58,7 @@ Mile Stones
 ----
 2018
 
-* Worked at [Paris Fashion Couture Show Project]({{ .Site.BaseURL}}yn18ss) through technical research with [YUIMA NAKAZATO](http://www.yuimanakazato.com) and [mznlab](http://www.daijirom.com)
+* Worked at [Paris Fashion Couture Show Project]({{ .Site.BaseURL}}yn18ss) through technical research with [YUIMA NAKAZATO](https://www.yuimanakazato.com) and [mznlab](https://www.daijirom.com)
 
-* Worked for [Rhizomatiks](www.rhizomatiks.com) for Sensing Streams in Korea
+* Worked for [Rhizomatiks](https://www.rhizomatiks.com) for Sensing Streams in Korea
 
