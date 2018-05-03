@@ -2,6 +2,10 @@
 // import hljs from 'highlight.js';
 
 var lazysizes = require('lazysizes');
+var lazyframe = require('lazyframe');
+
+// Passing a selector
+lazyframe('.lazyframe');
 
 lazysizes.lazySizesConfig = {
     lazyClass: 'lazy', // lazyloadの対象とするクラスの指定。

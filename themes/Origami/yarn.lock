@@ -3051,6 +3051,10 @@ labeled-stream-splicer@^2.0.0:
     isarray "^2.0.4"
     stream-splicer "^2.0.0"
 
+lazyframe@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/lazyframe/-/lazyframe-1.1.6.tgz#0cbe5b82b7bdfdfb5df71a1c41b6cb5558e98d6d"
+
 lazysizes@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-4.0.2.tgz#2316aff5bc35ec01dcef60cb51f33f69558694a2"

@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "highlight.js": "^9.12.0",
+    "lazyframe": "^1.1.6",
     "lazysizes": "^4.0.2",
     "normalize-scss": "^7.0.1"
   }
