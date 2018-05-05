@@ -7,3 +7,4 @@ publishDir = "public"
 [taxonomies]
   category = "categories"
   tag = "tags"
+paginate = 1

@@ -12,7 +12,16 @@
     {{ .Hugo.Generator }}
     <meta name="pinterest" content="nopin" description="Sorry, no pinning of images on this site please!" />
     <meta http-equiv="X-UA-Compatible" content="IE=9">
-	<meta http-equiv="content-language" content="en">
+    <meta http-equiv="content-language" content="en">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78797907-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-78797907-1');
+  </script>
 	<!-- ERASE THIS SHIT SO THAT IT DOESNT REDIRECT -->
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/post.css">
    <!--  <link rel="stylesheet" href="/css/fonts.css"> -->
@@ -58,11 +67,21 @@
     <p>{{ .Content }}</p>
 
     </article>
-
+    
     <nav class="projectnav">
         <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project"><span class="icon left"></span>
             <span class="navtext" style="margin-left:-4px;margin-right:12px;">Newer</span></a>
             <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project"><span class="navtext" style="margin-right:-4px;margin-left:12px;">Older</span><span class="icon right"></span></a>
         </nav>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78797907-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-78797907-1');
+</script>
+
 </body>
 </html>
