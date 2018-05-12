@@ -93,11 +93,9 @@
   }
   nav, article, header{
     max-width:1318px;
-    margin-right: auto;
-    margin-left: auto;
     padding-left: 30px;
     padding-right: 30px;
-    margin:0 auto 2em auto;
+    margin:1rem auto 3rem auto;
   }
   nav > *{
     display:inline-block;
@@ -110,6 +108,7 @@
     text-align:right;
     margin:0;
     white-space: nowrap;
+    padding: 0;
   }
   .projectnav span.navtext{
     /*height:40px;*/

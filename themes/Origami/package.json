@@ -30,6 +30,7 @@
     "webpack-cli": "^2.0.15"
   },
   "dependencies": {
+    "google-fonts": "^1.0.0",
     "highlight.js": "^9.12.0",
     "lazyframe": "^1.1.6",
     "lazysizes": "^4.0.2",

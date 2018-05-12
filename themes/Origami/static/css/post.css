@@ -492,11 +492,9 @@ a.styled-dark:active .icon {
 
 nav, article, header {
   max-width: 1318px;
-  margin-right: auto;
-  margin-left: auto;
   padding-left: 30px;
   padding-right: 30px;
-  margin: 0 auto 2em auto; }
+  margin: 1rem auto 3rem auto; }
 
 nav > * {
   display: inline-block; }
@@ -508,7 +506,8 @@ nav > * {
   display: block;
   text-align: right;
   margin: 0;
-  white-space: nowrap; }
+  white-space: nowrap;
+  padding: 0; }
 
 .projectnav span.navtext {
   /*height:40px;*/
@@ -591,12 +590,12 @@ article {
 article > *:first-child {
   margin-top: 0; }
 
-article img, .imglite {
+article img {
   max-width: 1000px;
   max-height: 100%;
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   z-index: 1;
   text-align: center;
   object-position: center center;

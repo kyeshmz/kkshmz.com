@@ -9,33 +9,36 @@ ogp: "/img/profile.jpg"
 {{< img src="/img/profile.jpg" >}}
 
 Hi, I am a Tokyo based design engineer / researcher born in Tokyo and raised in Texas.
-My interests are at the intersection of technological affordance and design research and how we can create that using code.
+My interests are at the intersection of design research and technological affordance, and how we can create that using code.
 
-I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/) studying interaction design when it was formally taught at SFC, and also part of [Daijiro Mizuno Lab](https://www.daijirom.com/) studying the intersection of computational design and design research.
+
+
+I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/), an acclaimed researcher and media artist, studying interaction design. I am also part of the [Daijiro Mizuno Lab](https://www.daijirom.com/), studying the intersection of computational design and design research.
 
 &nbsp;
 
 &nbsp;
 
 
-Previous Employment
+## Previous Employment
 
 - 2017 - Current &nbsp; [Rhizomatiks](https://www.rhizomatiks.com)  as a part time researcher.
 - 2015 - 2017 &nbsp; Assistant for Abacus Inc.
 - 2016.7 - 2016.9 &nbsp; Summer Intern at [Algorithimics LLC](https://www.adgo.io/) as a designer.
 - 2015 - 2016 &nbsp; [Slush Asia](tokyo.slush.org) (now Slush Tokyo) as Organizer / Production Manager
-- 2015 - 2016 &nbsp; [Junction Asia](tokyo.hackjunction.com) (now Junction Tokyo) as Organizer / Production Manager
+- 2015 - 2016 &nbsp; [Junction Asia](tokyo.hackjunction.com) (now Junction Tokyo) as Founder / Production Manager
 
   
 &nbsp;
 
 &nbsp;
 
-Education
+## Education
 
 - 2018 - Current &nbsp; Mizuno Daijiro Laboratory, XDesign Program, at Keio University
 - 2017 - Current &nbsp; Yasuaki Kakehi Laboratory, XDesign Program, at Keio University
 - 2015 - Current &nbsp; Enrollment into Keio University, Faculty of Policy Management. Major in Design.
+- 2013 - 2015 &nbsp; Enrollment and Graduation from International Christian University High School.
 
 
 &nbsp;
@@ -44,21 +47,14 @@ Education
 
 
 
-Exhibition 
+## Exhibition 
 
-- 2017.2 [Whereabouts of Exchange]({{ .Site.BaseURL}}projects/exchangewhere/) Exhibition at Chiba City Museum of Art, Japan 
-- 2017.2 [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn18ss-show/) Tokyo Midtown 2121_Design Sight Exhibition , Japan.
-- 2017.1 [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn2121/) at Paris 2018 Haute Couture Fashion Week, France. 
+- 2017.2 &nbsp; [Whereabouts of Exchange]({{ .Site.BaseURL}}projects/exchangewhere/) Exhibition at Chiba City Museum of Art, Japan 
+- 2017.2 &nbsp; [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn18ss-show/) Tokyo Midtown 2121_Design Sight Exhibition , Japan.
+- 2017.1 &nbsp; [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn2121/) at Paris 2018 Haute Couture Fashion Week, France. 
+
 &nbsp;
 
 &nbsp;
 
-Mile Stones
-----
-----
-2018
-
-* Worked at [Paris Fashion Couture Show Project]({{ .Site.BaseURL}}yn18ss) through technical research with [YUIMA NAKAZATO](https://www.yuimanakazato.com) and [mznlab](https://www.daijirom.com)
-
-* Worked for [Rhizomatiks](https://www.rhizomatiks.com) for Sensing Streams in Korea
 
