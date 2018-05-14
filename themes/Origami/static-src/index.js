@@ -3,16 +3,25 @@
 
 var lazysizes = require('lazysizes');
 var lazyframe = require('lazyframe');
+var fonts = require('google-fonts');
+
 
 // Passing a selector
 lazyframe('.lazyframe');
 
 lazysizes.lazySizesConfig = {
-    lazyClass: 'lazy', // lazyloadの対象とするクラスの指定。
+    lazyClass: 'lazyload', // lazyloadの対象とするクラスの指定。
     loadingClass: 'lazyloading',
     loadedClass: 'lazyloaded'
     
 };
+
+fonts.add({
+    'Roboto Condensed': 700,
+    'Noto Sans': ['400','700']
+
+})
+
 $("ul#prj-list:first li.prj-item").hover(
     function () {
         $(this).toggleClass('selected').siblings("li.prj-item").removeClass('selected');

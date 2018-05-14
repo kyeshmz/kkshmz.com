@@ -2,7 +2,7 @@
 title: "Before enrolling into a thing called 'College'"
 description: "SFCに入学する前のあなたに。"
 date: 2018-02-27T13:57:38+09:00
-draft: false
+draft: true
 layout: "single"
 ogp: ""
 ---

@@ -3,7 +3,7 @@ title: "Art"
 description:  "Context for Products
 What has also happened in itself shows. Of course, this can be argued that it isn't intended for that audience, there for good art must imply the auience thtat they are talking about. "
 date: 2017-10-21
-draft: false
+draft: true
 type: "single"
 ---
 

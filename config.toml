@@ -1,10 +1,13 @@
 BaseURL = "https://kkshmz.github.io"
 relativeURLs = "true"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Kye 'kkshmz' Shimizu"
 theme = "Origami"
 publishDir = "public"
 [taxonomies]
   category = "categories"
   tag = "tags"
 paginate = 1
+[languages]
+  [languages.en]
+    title = "Kye 'kkshmz' Shimizu"
