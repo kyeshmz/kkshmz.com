@@ -12,6 +12,17 @@ ogp: ""
 WIPだから、色々CSSも壊れるし、まだ工事中だよ。
 {{<img src="/img/blog/18ss-nyc/suge-1.png" >}}
 
+
+卒制作FUCK FUCK FUCK FUCK
+
+### 目次
+- Design Research 系
+- Fashion?
+  - met gala?
+- IxD 系（あとで）
+- まとめ (This is America)
+
+
 ### 作者について
 自分自身は東京うまれ、アメリカのテキサス州育ち、SFC通いっていうのもあって、アイデンテティー自体はアメリカ人でもないし、日本人でもない中間的な存在であったりする。
 地元どこって言われると、困るし、かと言ってアメリカは中学校卒業ぐらいまでだったので、完全にカルチャー染まってるかというと微妙。
@@ -19,6 +30,10 @@ WIPだから、色々CSSも壊れるし、まだ工事中だよ。
   
 そんなバックグラウンドもあり、いつも日本全体の立場や
 あ、あといまだにジャポニカ学習帳で漢字練習してるぐらいなので、多めに見てください
+
+
+
+
 
 ### NYCにおけるDesign Researchについて
 NYCに到着した当日にSVAのDesign Research MAの[卒論発表会](http://designresearch.sva.edu/public/sva-ma-design-research-thesis-presentations/)みたいなものに参加した。
@@ -73,11 +88,17 @@ mzんさんだったらブチ切れてた展示だから、なんとも。
 
 {{<img src="/img/blog/18ss-nyc/Parsons-riot.jpg" >}}
 
+{{<img src="/img/blog/18ss-nyc/FIT_Ad.jpg" >}}
 
 FITのAdvertising とかもおなじような感じだったかも。企業とコラボとかしていて、ユーザーのリサーチが1ミリもなくって、プロダクトだしてわいわいペルソナ、わいわいpost it noteみたいな。イタリア工科大学みたいにガッデムって言って、全部否定するみたいな人一人でも出て来てもいいなって思ったけど、ちょっと違うらしい。なんかこういう学部が美大とかあるのが芸大でアプリのUIだけを作り続けてると聞いた時と同じような違和感を感じた。多分自分自身がそうだからかもしれないけど、全体的にwicked problemに対して一つの部分をぐりぐりしていて、他の部分を見たい人への抵抗だと思う。SFC病かなこれ。
 
 
+###一回挟むやつ Interaction 系
 
+
+FITのInteraction Mediaみたいな感じのやつとか、あとは他にプロダクトなども見学した。FIT自体が美大っぽさが馴染み出ていて、それらは髪の色の劇的変化と服がより個性的になっていき、自分が人と同じような服を着るのが嫌う人みたいなのがいる風景でした。別にそれはそれでかっこいいと思うし、スタイルあるんだけど、親近感がわけないぼくではあるんですよね。親近感沸きたくないかもしれない問題ですけど。
+
+{{<img src="/img/blog/18ss-nyc/FIT_Interact.jpg" >}}
 
 
 NYとかLAのデザイナーもそうでだけど、
@@ -106,9 +127,11 @@ NYとかLAのデザイナーもそうでだけど、
   
 俺を知ってる人だと、来たかみたいになるやつですが、だいたいこの曲のくる文脈みたいなのを理解できていたら、僕がみたNYを理解したのかな。
 Donald GloverがChildish Gambino (ラッパー名）として最後の曲としてもされている新作の「This is America」のミュージックビデオであるが、NYCで見た大半の卒制は何らかの形でこのような要素が埋め込まれていた。
+
+  
 ちょっと説明すると、様々なモチーフなどがPVになっていて、
-冒頭からもうすでに、ギターを取りに来る人がいますが、彼自身はすごく[Trayvon Martin](https://en.wikipedia.org/wiki/Shooting_of_Trayvon_Martin)　のお父さんに似ていると話題になった。もちろん、Trayvon といえば、2012年に人種差別主義者の警察官に打たれた少年の事件のことであり、今となっては #BlackLivesMatter　のムーブメントの大きな存在となっている。
-{{<img src="/img/blog/18ss-nyc/tia-guitar.png" >}}
+冒頭からもうすでに、ギターを取りに来る人がいますが、彼自身はすごく[Trayvon Martin](https://en.wikipedia.org/wiki/Shooting_of_Trayvon_Martin)のお父さんに似ていると話題になった。もちろん、Trayvonといえば、2012に人種差別主義者の警察官に打たれた少年の事件のことであり、今となっては #BlackLivesMatter　のムーブメントの大きな存在となっている。
+{{<img src="/img/blog/18ss-nyc/tia-guitar.png" title="本当はLAのアーティスト">}}
 
 
 もちろん、これは卒制などを完成してからの発表っていうのもありましたが、関連としては Kendrick Lamarの [DNA](https://www.youtube.com/watch?v=NLZRYQMLDW4)とか ,Logic [1-800](https://www.youtube.com/watch?v=Kb24RrHIbFk) とかも同じ文脈で話されているだろう。最近割とこういうの思うけど、そもそもラップ知らないから議論は入れない人が多いから、日本だとちょっとつらい。
