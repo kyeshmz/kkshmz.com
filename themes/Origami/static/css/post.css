@@ -403,12 +403,17 @@ template {
   display: none; }
 
 /* Global overrides */
+html, body {
+  height: 100%;
+  margin: 0; }
+
 body {
   font-family: 'Noto Sans', sans-serif;
   background-color: #eee;
   color: #141414;
   margin: 0 auto;
   max-width: 1318px;
+  height: 100%;
   box-sizing: border-box;
   border: 16px solid transparent;
   width: 100%;

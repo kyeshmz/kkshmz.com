@@ -1,6 +1,10 @@
 @import './node_modules/normalize-scss/sass/_normalize.scss';
 @include normalize();
  /* Global overrides */
+  html, body{
+    height: 100%;
+    margin: 0;
+  }
   body{
     font-family: 'Noto Sans', sans-serif;
     // font-family: 'Cabin', sans-serif;
@@ -9,6 +13,7 @@
     color:#141414;
     margin:0 auto;
     max-width:1318px;
+    height: 100%;
     // max-width:1008px;
     box-sizing:border-box;
     border:16px solid transparent;
