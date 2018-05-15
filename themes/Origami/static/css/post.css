@@ -634,10 +634,6 @@ article p {
   margin-right: auto;
   max-width: 768px; }
 
-article p:lang(ja) {
-  font-family: 'Noto Sans Japanese', sans-serif;
-  font-weight: 400; }
-
 article iframe.giphy-embed {
   margin-left: auto;
   margin-right: auto; }
