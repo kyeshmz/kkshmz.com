@@ -22,7 +22,7 @@ WIPだから、色々CSSも壊れるし、まだ工事中だよ。
 ### NYCにおけるDesign Researchについて
 NYCに到着した当日にSVAのDesign Research MAの[卒論発表会](http://designresearch.sva.edu/public/sva-ma-design-research-thesis-presentations/)みたいなものに参加した。何を期待していたのかわからないが、予想以上に発表に残念だった。SVA Design Research 自体にはPaola Antonelli やMIT Media Lab創業者のNicholas Negroponteが設立に関わっていると[書かれている](http://designresearch.sva.edu/program/)が、実際プログラムを見てる感じでは現場でDesign Historyの一環として見なされている感じが理解でき、その結果として卒論でのリサーチが定量的リサーチの極みみたいなものが出されていた。
 
-また、SVAだけでなくても、Parsons Art and Design History and Theory [MADS exhibition](https://events.newschool.edu/event/art_and_design_history_and_theory_mads_exhibition) に足を運んで見て、行きましたが、なんだろう。
+また、SVAだけでなくても、 Parsons Art and Design History and Theory[MADS exhibition](https://events.newschool.edu/event/art_and_design_history_and_theory_mads_exhibition) に足を運んで見て、行きましたが、なんだろう。
 
 僕自身は東京にいる帰国子女っていうのものあって、いつもヨーロッパで、ロンドンで、LAでみたいな感じで海外のデザインの動向について知りたがりみたいな部分がいつもあった。それと同じ感じでNYも見ていて、なんか全体的に綺麗っていうか、んー、えらいやんみたいな感じだった。あと、自分自身とはなんだろうみたいなのが自分の印象の中では、間違っていても話すことができていて、ひたすら羨ましかったかも。自分ってなんだっけ。なんでこういうのに美意識持っちゃうんだっけみたいな。これらは自分の社会状況などに反映するなど様々な形として現れたが、すごい納得した。
 っていうか、自分が自分であるのが社会の産物の一つとして表してい流作品が多く、特に自分の中でも親近感もあるから響いたものとして、Asian ImmigrantとしてのAmerican Historyを描いたガイドブックみたいなものだった。
@@ -67,13 +67,13 @@ NYとかLAのデザイナーもそうでだけど、
 
 歴史がなく、を教える人がそもそもいなさげなので、
 
-### 経済産業省のPolicy Designerとして、Parsons Transdisciplinary Design に留学してる　Naoki氏と話し合う
+### 経済産業省の Policy Designer として、ParsonsでMFA留学してる Naoki氏と話し合う
 
 なおきさん自身は法学部を卒業してから、経済産業省へ入省して、資源・エネルギー政策、クールジャパン政策、などと７年間様々な行政分野に携わってきた人間である。そして、あえて公務員の留学先の公共政策学、経済学、経営学(MBA）などがメジャーの中であえて前例のない「Master of Fine Arts = MFA」（美術学修士）に行くっていうファンキーなことをする人です。
 
 そんな中で彼は[スペキュレイティブデザイン](http://10plus1.jp/monthly/2016/04/issue-01.php)の手法を用いて、技術革新によって変わって行く社会を見通した政策立案プロセスを提案したいということでParsons Transdisciplinary Designを選んだとのこと。 
   
-まあ、スペキュレイティブデザイン自体を提案したAnthony Dunne と Fiona Rabyらが[2015](https://www.dezeen.com/2015/03/05/dunne-raby-step-down-design-interactions-royal-college-of-art-london/)年にRCAのDesign Interactionsを閉めて、[2016](https://www.newschool.edu/pressroom/pressreleases/2016/dunneandraby.html)からParsonsに転職したいうのもあって、なんとなく納得する選択であった。
+まあ、スペキュレイティブデザイン自体を提案した Anthony Dunne と Fiona Rabyらが[2015](https://www.dezeen.com/2015/03/05/dunne-raby-step-down-design-interactions-royal-college-of-art-london/)年にRCAのDesign Interactionsを閉めて、[2016](https://www.newschool.edu/pressroom/pressreleases/2016/dunneandraby.html)からParsonsに転職したいうのもあって、なんとなく納得する選択であった。
 
 
 彼とは人生相談に乗ってもらって、自分自身が元々全然デザイン畑からじゃないところからSFC入って、今に至る経緯とか話したり。あとは経産省自体におけるスペキュレイティブデザインによって提案できるような根回し。とかについて話した。特に一番面白かったのは彼自身も日本における危機感自体がテックのみでゴリ押ししようとしている姿に機器を感じている部分でもあった。っていうか、それら自体が政治自体を買える可能性が高い中でどのようにやりとりをするかみたいな。いわゆる脇田先生がラボドリブンで行ってる　技術を道具として見てる人　だけではなさそうな気がしていて、親近感が湧いた。
@@ -83,7 +83,7 @@ NYとかLAのデザイナーもそうでだけど、
 詳しくはぜひ彼の[ウェブサイト](http://policy-designer.com/)を見て欲しい。
 
 ## This is America
-{{< youtube VYOjWnS4cMY>}}
+{{< youtube VYOjWnS4cMY >}}
 
   
 俺を知ってる人だと、来たかみたいになるやつですが、だいたいこの曲のくる文脈みたいなのを理解できていたら、僕がみたNYを理解したのかな。
@@ -91,6 +91,10 @@ Donald GloverがChildish Gambino (ラッパー名）として最後の曲とし�
 もちろん、これは卒制などを完成してからの発表っていうのもありましたが、関連としては Kendrick Lamar ,Logic 1-800 とかも同じ文脈で話されているだろう
 
 なんかこれらは最近海外でSelf Healing みたいなブームがあると同じように、みんなが実は俺は無理やり何かをしてて、もっと人生において価値を見出さなきゃ見たいな感じで思ってるのか。みたいな。Purpose Economyっていわれるのかわからないけど、よく今のDrug dealerはスタートアップ勧めてくるBro だよねみたいな議論がここでも同じように感じる。 
+あとManhattan で大抵うまく言ってる人自体がなんとなく、わかる。
+
+San Fransisco でも見た感じで同じようなことが各地のアメリカの大きな場所でも起きてるんだろうなって思うけど、特にスタートアップハブみたいな存在の場所だとこういうのが多い。
+
 
 海外、外人ってもはや平成が終わろうとしてるのに、こういう呼び方しかないのがおもろいと思う。平成自体生き残ってるのはいろんな書類とかだるいとかあるけど、日本自体がGregorian Calendarとは別なもので世界を動かしてるって面白いって思うんですよね。どうですか？まあ、別な時ですかね。
 

@@ -48,19 +48,14 @@
 </head>
 <body class="fade-in" cz-shortcut-listen="true">
         <nav id="nav">
-          <a href="{{ .Site.BaseURL }}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
-          <div id="projectnav">
-              <nav class="projectnav">
-                <!---  <a href="{{ .Site.BaseURL}}about/">About</a> -->
-              <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(false);" title="Newer Project">
-                  <span class="icon left"></span></a>
-                  <a href="javascript:void(0);" class="styled-dark" onclick="bloom(this);incrementProject(true);" title="Older Project">
-                      <span class="icon right"></span></a>
+                <a href="{{ .Site.BaseURL}}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
+                <div id="projectnav">
+                    <a href="{{ .Site.BaseURL }}/about/" class="styled">About</a>
+                    <a href="{{ .Site.BaseURL }}/blog/" class="styled">Blog</a>
+                </div>
                 </nav>
-            </div>
-        </nav>
-        <article id="article" class="article">
-            <h1>{{ .Title}}</h1>
+        <article id="post">
+            <h1 class="post-title">{{ .Title}}</h1>
             <h4>{{ .Description }}</h4>
         <hr>
     <img class="imglite" href="{{ .Params.ogp }}">
