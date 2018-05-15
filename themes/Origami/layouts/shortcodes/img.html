@@ -1,3 +1,4 @@
+<div class="imgwrap">
 <figure {{ with .Get "class" }} class="{{.}}"{{ end }}>
   {{ with .Get "link"}}<a href="{{.}}">{{ end }}
       <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{.Site.BaseURL}}{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
@@ -14,3 +15,4 @@
   </figcaption>
   {{ end }}
 </figure>
+</div>
