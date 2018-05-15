@@ -1,4 +1,5 @@
 BaseURL = "https://kkshmz.github.io"
+BaseURLs = "https://kkshmz.github.io/"
 relativeURLs = "true"
 languageCode = "en-us"
 title = "Kye 'kkshmz' Shimizu"
