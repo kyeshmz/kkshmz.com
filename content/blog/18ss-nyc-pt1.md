@@ -4,7 +4,7 @@ description: ""
 date: 2018-05-11T23:09:12-04:00
 draft: false
 layout: "single"
-ogp: ""
+ogp: "/img/blog/18ss-nyc/18ss_nyc_ogp.jpg"
 ---
 ---
 
@@ -41,8 +41,14 @@ NYCに到着した当日にSVAのDesign Research MAの[卒論発表会](http://d
 
 {{<img src="/img/blog/18ss-nyc/sva-dr.jpg" title="かわいいパンフ">}}
 
-何を期待していたのかわからないが、予想以上に発表に残念だった。SVA Design Research 自体にはPaola Antonelli やMIT Media Lab創業者のNicholas Negroponteが設立に関わっていると[書かれている](http://designresearch.sva.edu/program/)が、実際プログラムを見てる感じでは現場でDesign Historyの一環として見なされている感じが理解でき、その結果として卒論でのリサーチが定量的リサーチの極みみたいなものが出されていた。
+何を期待していたのかわからないが、予想以上に発表に残念だった。SVA Design Research 自体にはPaola Antonelli やMIT Media Lab創業者のNicholas Negroponteが設立に関わっていると[書かれている](http://designresearch.sva.edu/program/)が、実際プログラムを見てる感じでは現場でDesign Historyの一環として見なされている感じが理解でき、その結果として卒論でのリサーチが定量的リサーチの極みみたいなものが出されていた。あー、instagramやってフィルターかけるとインターネットエイジェンシー感じるよね、みんなそう思ってるよねみたいな。
+  
+一番おもろかったのはNYという都市に対して、雨が降るときに、下水道がちゃんと処理されない部分も存在し、結果としてNYの人々が水道水を飲まなくなり、環境が悪化する問題に対して、明確なアフリカで行われていた下水を電気に変えられるシステムを提唱していた。
+  
 
+
+
+##### Parsons Art and Design History and Theory
 また、SVAだけでなくても、 Parsons Art and Design History and Theory[MADS exhibition](https://events.newschool.edu/event/art_and_design_history_and_theory_mads_exhibition) に足を運んで見て、行きましたが、なんだろう。
 
 {{<img src="/img/blog/18ss-nyc/PADH_MADS.jpg" >}}
@@ -88,7 +94,7 @@ mzんさんだったらブチ切れてた展示だから、なんとも。
 そういう問題よりかは直近で New School 自体に抗議してるParsonsで働いてる学生の体制を助ければいいんじゃないのか。古い建物をレノベーションとかディベロップメントするために賃料を高くして、人を追い出す都市の作戦と給料が全然上がらないっていうジェントリフィケーション問題は興味ないのかな。
 
 {{<img src="/img/blog/18ss-nyc/Parsons-riot.jpg" >}}
-
+##### FIT
 {{<img src="/img/blog/18ss-nyc/FIT_Ad.jpg" >}}
 
 FITのAdvertising とかもおなじような感じだったかも。企業とコラボとかしていて、ユーザーのリサーチが1ミリもなくって、プロダクトだしてわいわいペルソナ、わいわいpost it noteみたいな。イタリア工科大学みたいにガッデムって言って、全部否定するみたいな人一人でも出て来てもいいなって思ったけど、ちょっと違うらしい。なんかこういう学部が美大とかあるのが芸大でアプリのUIだけを作り続けてると聞いた時と同じような違和感を感じた。多分自分自身がそうだからかもしれないけど、全体的にwicked problemに対して一つの部分をぐりぐりしていて、他の部分を見たい人への抵抗だと思う。SFC病かなこれ。
@@ -107,6 +113,53 @@ FITのInteraction Mediaみたいな感じのやつとか、あとは他にプロ
 {{<img src="/img/blog/18ss-nyc/FIT_Interact.jpg" >}}
 
 
+
+#### Parsons のDTとITPの展示にも行って来た
+DT自体は2年間ラボに入り、1学期ずつ、担当の教員が変わっていくスタイルとなっている。そうすることによって、包括的な視点を最終的のアウトプットにつなげるような形だ。
+##### Parsons DT
+Parsons DT自体は Master of Fine Arts = MFA」（美術学修士）であるために、多くの入学して来る人たちはプログラミング的な概念を理解していながらも、本格的に使用したことがないみたいな形であった。また、クラス自体は Parsons New Schoolの卒業生が多い事も印象的で、日本にある大学から大学院にそのまま進んでいくモデルだ。
+  
+また最近では Parsons の会社の New School自体が Parsons Beijing などの設立によって中国からの学生が多いことも印象的だった。どのぐらいっていうと60%ぐらい、本当に多い。それもあり、多くの卒業制作自体はグラフィックデザイン及びAudio Visual作品としての特色があることを感じた。
+
+{{<img src="/img/blog/18ss-nyc/Parsons_DT.jpg" >}}
+
+{{<img src="/img/blog/18ss-nyc/PADH_Controller.jpg" title="Cool Controller by Dylan Negri">}}
+
+##### ITP
+
+
+ITPの卒業制作自体は1学期ぐらいしか本格的なメンタリングが入らないが、2年からだいたいん愛を作るかを考えて作成していくと聞いた。なるほど。形態としては、CIIDみたいに卒業制作自体を中心としたプログラムよりかは一つのカリキュラムとして勧めていくみたいな形だ。
+
+
+<iframe src="https://giphy.com/embed/3t9arGBfvS3YjsdagD" width="100%" height="630" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+Daniel Rosin パイセン
+
+
+
+
+##### 並べて見る結果
+ITPかDTの中で選べって言われたら、**ITP** の方を選ぶに違いなかった。
+DT自体の展示は面白そうなんだけど、そもそも担当者がいなかったり、なんだかんだ
+
+
+大体どっちの展示に行っても、壊れていたものが多かったし、展示のクォリティー自体をどう担保するのか以外と課題だなと。
+
+
+
+ITPの方がごちゃごちゃした感じに親近感が抱いてしまう。ITP自体もMFAではなく、Master of Professional Studies = MPSになっていて、総合修士みたいな。
+あれ、総合、、政策？なんちゃって。
+  
+でもこれもこれで様々なMLを結果としてやる学生やグラフィックデザインのプロとして入って来るなど様々な人を呼び寄せてる。
+  
+もちろん、そのためにもプログラミング経験がない人などもいて、最終制作がKinectでパーティクル飛ばすみたいなになるプロジェクトもあった。Tensorflowでどのカメラでもできるようになりそうだから、携帯でもできそうだねって言って見たが、「Kinect のスケレトン落ちてるし、そっちを使った方がいいでしょ」とのことで、まあ、早くできればいいゲーなのかみたいに思ってしまった。
+
+
+ITPかDTの中で選べって言われたら、ITPの方を選ぶに違いなかった。
+DT自体の展示は
+
+
+
+
 NYとかLAのデザイナーもそうでだけど、
   
 最終的なアウトプットとしてのメディア自体がなんらかで制限されていたとしても、[](http://designresearch.sva.edu/research/power-is-boring/)
@@ -114,7 +167,7 @@ NYとかLAのデザイナーもそうでだけど、
 
 ### 経済産業省の Policy Designer として、ParsonsでMFA留学してる Naoki氏と話し合う
 
-なおきさん自身は法学部を卒業してから、経済産業省へ入省して、資源・エネルギー政策、クールジャパン政策、などと７年間様々な行政分野に携わってきた人間である。そして、あえて公務員の留学先の公共政策学、経済学、経営学(MBA）などがメジャーの中であえて前例のない「Master of Fine Arts = MFA」（美術学修士）に行くっていうファンキーなことをする人です。
+なおきさん自身は法学部を卒業してから、経済産業省へ入省して、資源・エネルギー政策、クールジャパン政策、などと７年間様々な行政分野に携わってきた人間である。そして、あえて公務員の留学先の公共政策学、経済学、経営学(MBA）などがメジャーの中であえて前例のないMFAに行くっていうファンキーなことをする人です。
 
 そんな中で彼は[スペキュレイティブデザイン](http://10plus1.jp/monthly/2016/04/issue-01.php)の手法を用いて、技術革新によって変わって行く社会を見通した政策立案プロセスを提案したいということでParsons Transdisciplinary Designを選んだとのこと。 
   
