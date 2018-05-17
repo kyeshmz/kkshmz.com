@@ -1,0 +1,7 @@
+<div class="iframewrap">
+    <iframe {{ with .Get "iframe" }} src="{{.}}" {{ end }}  width="100%" height="630" class="iframe-embed" allowFullScreen frameBorder="0"></iframe>
+    <figcaption>{{ if isset .Params "title" }}
+            {{ .Get "title" }} {{ end }}</figcaption>
+</div>
+    
+  

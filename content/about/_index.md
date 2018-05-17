@@ -6,9 +6,10 @@ draft: false
 layout: "single"
 ogp: "/img/profile.jpg"
 ---
-{{< img src="/img/profile.jpg" >}}
+{{< img class="aboutpic" src="/img/profile.jpg" >}}
 
-Hi, I am a Tokyo based design engineer / researcher born in Tokyo and raised in Texas.
+Hi, I am a Tokyo based Design Engineer born in Tokyo and raised in Texas.
+
 My interests are at the intersection of design research and technological affordance, and how we can create that using code.
 
 

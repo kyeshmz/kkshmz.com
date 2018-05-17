@@ -54,11 +54,12 @@
                     <a href="{{ .Site.BaseURL }}/blog/" class="styled">Blog</a>
                 </div>
                 </nav>
-        <article id="post">
+        <article id="post-content">
             <h1 class="post-title">{{ .Title}}</h1>
-            <h4>{{ .Description }}</h4>
-        <hr>
-    <img class="imglite" href="{{ .Params.ogp }}">
+            <h5 class="post-desc">{{ .Description }}</h4>
+            <hr>
+    <img class="imglite" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{.Site.BaseURL}}{{ .Params.ogp }}">
+    <img class="post-ogp" src="{{.Site.BaseURL}}{{ .Params.ogp }}" data-src="{{.Site.BaseURL}}{{ .Params.ogp }}">
     <p>{{ .Content }}</p>
 
     </article>

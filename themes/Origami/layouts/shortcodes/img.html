@@ -1,7 +1,7 @@
 <div class="imgwrap">
-<figure {{ with .Get "class" }} class="{{.}}"{{ end }}>
+<figure {{ with .Get "figclass" }} class="{{.}}"{{ end }}>
   {{ with .Get "link"}}<a href="{{.}}">{{ end }}
-      <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{.Site.BaseURL}}{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
+    <img class="{{ .Get "class" }}  lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{.Site.BaseURL}}{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
   {{ if .Get "link"}}</a>{{ end }}
   {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
   <figcaption>{{ if isset .Params "title" }}

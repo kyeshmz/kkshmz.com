@@ -7,15 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:sass": "node-sass static-src/bundle-style.scss > static/css/style.css",
     "build:front": "node-sass static-src/landing.scss > static/css/landing.css",
-    "build:post": "node-sass static-src/post.scss > static/css/post.css",
+    "build:post": "node-sass static-src/post.scss > static/css/post.css | npm run min:css",
     "watch:post": "onchange static-src/post.scss -- npm run build:post",
     "watch:front": "onchange static-src/landing.scss -- npm run build:front",
     "watch:sass": "onchange static-src/*.scss -- npm run build:sass",
     "build:js": "browserify ./static-src/index.js ./static/js/bundle.js",
     "watch:js": "onchange 'static-src/index.js' -- npm run build:js",
     "check:js": "jslint static-src/index.js",
-    "build:blog": "node-sass static-src/blog.scss > static/css/blog.css",
-    "watch:blog": "onchange static-src/blog.scss -- npm run build:blog"
+    "min:css": "css-minify -d static/css"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +29,7 @@
     "webpack-cli": "^2.0.15"
   },
   "dependencies": {
+    "css-minify": "^1.0.1",
     "google-fonts": "^1.0.0",
     "highlight.js": "^9.12.0",
     "lazyframe": "^1.1.6",

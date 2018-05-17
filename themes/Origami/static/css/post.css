@@ -418,8 +418,7 @@ body {
   border: 16px solid transparent;
   width: 100%;
   font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.75em; }
+  letter-spacing: 0.02em; }
 
 h1 {
   font-size: 3em; }
@@ -433,16 +432,15 @@ h1, h2 {
   line-height: 1.3em;
   margin-top: 1.4em; }
 
-h1, h2, h3 {
-  letter-spacing: 0.04em; }
-
 h3 {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin: 0; }
 
 h4 {
-  margin: 0px;
   color: #555;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  line-height: 1.3em; }
 
 a {
   text-decoration: none;
@@ -476,7 +474,8 @@ a.styled-dark:active .icon {
   opacity: 0.8;
   background-position-y: -40px; }
 
-.imglite {
+.projects img {
+  background: linear-gradient(#f2f2f2 77%, rgba(242, 242, 242, 0));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -509,7 +508,8 @@ nav > * {
   display: inline-block; }
 
 #projectnav {
-  float: right; }
+  float: right;
+  line-height: 2em; }
 
 .projectnav {
   display: block;
@@ -556,7 +556,7 @@ nav > * {
   background-image: url("../img/logos.png");
   padding: 20px;
   display: inline-block;
-  background-size: 320px 80px; }
+  background-size: 320px 40px; }
 
 .icon:before {
   content: '\200B';
@@ -589,7 +589,6 @@ nav > * {
 
 /* Article Styling */
 article {
-  text-align: justify;
   font-size: 22px;
   line-height: 1.65em;
   position: relative;
@@ -609,7 +608,7 @@ article img {
   max-width: 1000px;
   max-height: 100%;
   display: block;
-  width: 100%;
+  width: auto;
   height: 100%;
   z-index: 1;
   text-align: center;
@@ -617,6 +616,7 @@ article img {
   margin: auto; }
 
 article .imgwrap {
+  margin-top: 30px;
   overflow: hidden; }
 
 article figure {
@@ -644,21 +644,16 @@ article hr {
 article p {
   margin-left: auto;
   margin-right: auto;
-  max-width: 768px; }
+  max-width: 768px;
+  font-size: 1.0em;
+  line-height: 1.6em; }
 
 article iframe.giphy-embed {
   margin-left: auto;
   margin-right: auto; }
 
 article div {
-  margin-bottom: 60px; }
-
-article h2,
-article h3,
-article h5 {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 768px; }
+  margin-bottom: 40px; }
 
 article p a {
   display: inline-block;
@@ -732,7 +727,8 @@ ul li > a:active {
   color: #222; }
 
 .project summary {
-  margin: 0; }
+  margin: 0;
+  align-content: left; }
 
 .project h3 {
   display: inline-block;
@@ -759,7 +755,8 @@ ul li > a:active {
 
 .project time {
   /*color:#888;*/
-  margin-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   display: inline-block; }
 
 /* Blog */
@@ -808,7 +805,11 @@ ul li > a:active {
 
 .post h3 {
   display: inline-block;
-  margin: 0; }
+  margin: 0;
+  line-height: 1.5em; }
+
+.post h4 {
+  margin-bottom: 30px; }
 
 .post:hover h3 {
   color: #eee; }
@@ -833,6 +834,41 @@ ul li > a:active {
   /*color:#888;*/
   margin-left: 8px;
   display: inline-block; }
+
+#post-content h2,
+#post-content h3,
+#post-content h5 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px; }
+
+#post-content h3 {
+  margin-top: 15px;
+  margin-bottom: 30px; }
+
+#post-content h4 {
+  color: #000;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#post-content h5 {
+  color: #6f6f6f;
+  margin: 0 auto; }
+
+#post-content .post-desc {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 770px;
+  color: #555;
+  font-size: 1.25em;
+  line-height: 1.3em; }
+
+#about .aboutpic {
+  width: auto; }
+
+#about ul {
+  line-height: 2.6em; }
 
 /* Animation */
 nav, article {
