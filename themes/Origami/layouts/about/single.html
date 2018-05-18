@@ -1,4 +1,4 @@
-{{ partial "header.html" }}
+{{ partial "head.html" }}
 <body class="fade-in" cz-shortcut-listen="true">
         <nav id="nav">
           <a href="{{ .Site.BaseURL }}" onclick="bloom(this);" class="styled">Kye Shimizu</a>
@@ -16,5 +16,6 @@
 
     </article>
     <script src="{{.Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+    <script src="{{.Site.BaseURL}}/js/bundle.js" async=""></script>
 </body>
 </html>
