@@ -8,13 +8,12 @@ ogp: "/img/profile.jpg"
 ---
 {{< img class="aboutpic" src="/img/profile.jpg" >}}
 
-Hi, I am a Tokyo based Design Engineer born in Tokyo and raised in Texas.
+Hi, I'm Kye Shimizu, a transdisciplinary design engineer, currently based in Tokyo, Japan.
 
-My interests are at the intersection of design research and technological affordance, and how we can create that using code.
+My interests are at the intersections of design research and interaction design in various fields such as fashion design, wearable technology, and also generative design. Giving focus to historical, existing, and speculative references, I aim to explore the boundaries existing in what relationship we have with technology.
 
 
-
-I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/), an acclaimed researcher and media artist, studying interaction design. I am also part of the [Daijiro Mizuno Lab](https://www.daijirom.com/), studying the intersection of computational design and design research.
+I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/), an acclaimed researcher and media artist, studying interaction design. I am also part of the [Daijiro Mizuno Lab](https://www.daijirom.com/), studying the intersection of computational design and design research. 
 
 &nbsp;
 
@@ -23,8 +22,8 @@ I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/), 
 
 ## Previous Employment
 
-- 2017 - Current &nbsp; [Rhizomatiks](https://www.rhizomatiks.com)  as a part time researcher.
-- 2015 - 2017 &nbsp; Assistant for Abacus Inc.
+- 2017 - Current &nbsp; [Rhizomatiks](https://www.rhizomatiks.com) : a collective focused in the creation of large scale commercial and artistic projects using both the arts and technology, led by Daito Manabe. Part time researcher
+- 2015 - 2017 &nbsp; Abacus Inc: a company focused on the Assistant for Abacus Inc.
 - 2016.7 - 2016.9 &nbsp; Summer Intern at [Algorithimics LLC](https://www.adgo.io/) as a designer.
 - 2015 - 2016 &nbsp; [Slush Asia](tokyo.slush.org) (now Slush Tokyo) as Organizer / Production Manager
 - 2015 - 2016 &nbsp; [Junction Asia](tokyo.hackjunction.com) (now Junction Tokyo) as Founder / Production Manager
@@ -46,6 +45,14 @@ I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/), 
 
 &nbsp;
 
+## Academic Conference / Paper
+
+- 2018.10 - 2018.11 &nbsp; Global Fashion Conference 2018 - What’s Going On? A discourse on Fashion, Design and Sustainability. Centre for Sustainable Fashion, a University of the Arts London Research Centre based at London College of Fashion. London. 
+
+
+&nbsp;
+
+&nbsp;
 
 
 ## Exhibition 
