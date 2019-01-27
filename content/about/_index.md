@@ -48,6 +48,7 @@ I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/), 
 ## Academic Conference / Paper
 
 - 2018.10 - 2018.11 &nbsp; Global Fashion Conference 2018 - What’s Going On? A discourse on Fashion, Design and Sustainability. Centre for Sustainable Fashion, a University of the Arts London Research Centre based at London College of Fashion. London. 
+- 2019.02 Design Indaba at Cape Town, South Africa.
 
 
 &nbsp;
@@ -60,9 +61,13 @@ I currently reside in [Yasuhi Kakehi's xlab](https://www.xlab.sfc.keio.ac.jp/), 
 - 2017.2 &nbsp; [Whereabouts of Exchange]({{ .Site.BaseURL}}projects/exchangewhere/) Exhibition at Chiba City Museum of Art, Japan 
 - 2017.2 &nbsp; [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn18ss-show/) Tokyo Midtown 2121_Design Sight Exhibition , Japan.
 - 2017.1 &nbsp; [YUIMA NAKAZATO Haute Couture 18S/S]({{ .Site.BaseURL }}projects/yn2121/) at Paris 2018 Haute Couture Fashion Week, France. 
+- 2019.3 &nbsp; 2019 Linux Audio Conference held at Stanford University in California, United States of America.
 
 &nbsp;
 
 &nbsp;
 
+## Awards 
+- 2018.10 Awarded Shonan Fujisawa Conference Subsidy Grant for speaking at the Global Fashion Conference in London
+- 2018.11 Awarded "Judge's special selection" at the Wired Creative Hack Award 2018 for "Algorithmic Couture"
 
